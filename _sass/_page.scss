@@ -68,6 +68,8 @@ body {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+}
+#front-page .entry-header {
 	background: #fff;
 }
 #page .entry-header {
@@ -202,6 +204,7 @@ body {
 
 	&.feature .header-title {
 		height: $front-page-feature-image-height;
+		background: #fff;
 	}
 
 	.entry-image {
