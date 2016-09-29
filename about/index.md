@@ -5,7 +5,7 @@ image:
   feature: aryeh-plaid-man.jpg
   background: bg7.png
 comments: false
-modified: 2016-02-01
+share: false
 ---
 ## About Aryeh
 Born in Winnipeg, Manitoba...
