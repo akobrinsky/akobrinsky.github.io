@@ -16,7 +16,7 @@
   {% if page.image.credit %}<div class="image-credit">Image source: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></div><!-- /.image-credit -->{% endif %}
   {% if page.image.feature %}
     <div class="entry-image">
-      <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
+      <img src="{{ site.baseurl }}/images/{{ page.image.feature }}" alt="{{ page.title }}">
     </div><!-- /.entry-image -->
   {% endif %}
   <div class="header-title">
@@ -30,7 +30,7 @@
           <ul class="inline-list breadcrumb">
           <li><a href="/">Home</a></li>
           {% if page.time %}
-          <li>:: <a href="/{{ page.breadcrumb }}">{{ page.breadcrumb }}</a></li>
+          <li>:: <a href="{{ site.baseurl }}/{{ page.breadcrumb }}">{{ page.breadcrumb }}</a></li>
           {% endif %}
           </ul>
         </div><!-- /.entry-reading-time -->
