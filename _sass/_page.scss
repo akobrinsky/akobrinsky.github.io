@@ -10,16 +10,16 @@ body {
 }
 
 #front-page {
-		background: transparent url("/images/full-bg2.jpg") no-repeat fixed 50% 100px;
+		background: transparent url("/images/full-bg2.jpg") no-repeat scroll 50% 100px;
 
 		@media #{$small} {
-			background: transparent url("/images/full-bg2.jpg") no-repeat fixed 50% 150px;
+			background: transparent url("/images/full-bg2.jpg") no-repeat scroll 50% 150px;
 		}
 		@media #{$medium} {
-			background: transparent url("/images/full-bg2.jpg") no-repeat fixed 50% 63px;
+			background: transparent url("/images/full-bg2.jpg") no-repeat scroll 50% 63px;
 		}
 		@media #{$extralarge} {
-			background: transparent url("/images/full-bg2.jpg") no-repeat fixed 50% 63px;
+			background: transparent url("/images/full-bg2.jpg") no-repeat scroll 50% 63px;
 		}
 }
 /* 
