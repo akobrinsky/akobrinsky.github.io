@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A Post with a Video"
+title: Hush Point
 description: "Hush Point trailer... check it out!"
 tags: [video]
 ---
