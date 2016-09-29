@@ -22,6 +22,7 @@ body {
 			background: transparent url("/images/full-bg2.jpg") no-repeat scroll 50% 63px;
 		}
 }
+
 /* 
    Main content
    ========================================================================== */
@@ -830,4 +831,7 @@ header .entry-meta {
 .jp-audio {
 	overflow: hidden;
 	display: block;
+}
+.block-wrapper {
+		margin-top: 80px;
 }
