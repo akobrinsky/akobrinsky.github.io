@@ -1,0 +1,19 @@
+---
+layout: post-index
+title: Concerts
+description: "Aryeh Kobrinsky upcoming concerts"
+comments: false
+---
+<article>
+{% for concert in site.concerts reversed %}
+  {% assign currentdate = concert.date | date: "%Y" %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h1 id="y{{concert.date | date: "%Y"}}">{{ currentdate }}</h1>
+    <ul class="concert-listing">
+    {% assign date = currentdate %}
+  {% endif %}
+    <li><a href="{{ concert.url }}">{{concert.date | date: "%b %d"}} {{ concert.time }} - {{ concert.title }}</a></li>
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}
+</article>
