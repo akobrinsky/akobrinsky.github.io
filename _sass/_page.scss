@@ -10,16 +10,16 @@ body {
 }
 
 #front-page {
-		background: rgba(0, 0, 0, 0) url("/images/full-bg-small.jpg") no-repeat fixed 50% 50% / cover ;
+		background: transparent url("/images/full-bg.jpg") no-repeat fixed 50% 150px / cover;
 
 		@media #{$small} {
-			background: rgba(0, 0, 0, 0) url("/images/full-bg-small.jpg") no-repeat fixed 50% 50% / cover ;
+			background: transparent url("/images/full-bg.jpg") no-repeat fixed 50% 150px / cover;
 		}
 		@media #{$medium} {
-			background: rgba(0, 0, 0, 0) url("/images/full-bg.jpg") no-repeat fixed 50% 50% / cover ;
+			background: transparent url("/images/full-bg.jpg") no-repeat fixed 50% 63px / cover;
 		}
 		@media #{$extralarge} {
-			background: rgba(0, 0, 0, 0) url("/images/full-bg.jpg") no-repeat fixed 50% 50% / 1155px auto ;
+			background: transparent url("/images/full-bg.jpg") no-repeat fixed 50% 63px / cover;
 		}
 }
 /* 
@@ -67,6 +67,7 @@ body {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
+	background: #fff;
 }
 #page .entry-header {
 		background: $dark;
