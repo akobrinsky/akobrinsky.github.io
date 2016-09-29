@@ -2,7 +2,7 @@
 layout: page
 title: Bio
 image:
-  feature: abstract-5.jpg
+  feature: aryeh-plaid-man.jpg
   background: bg7.png
 comments: false
 modified: 2016-02-01
