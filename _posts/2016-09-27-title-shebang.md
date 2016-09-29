@@ -6,4 +6,4 @@ comments: true
 image:
  background: bg3.png
 ---
-***whatever
+** whatever
