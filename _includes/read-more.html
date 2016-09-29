@@ -1,0 +1,26 @@
+<div class="read-more">
+          {% for post in site.related_posts limit:1 %}
+    <div class="read-more-header">
+      <a href="{{ site.url }}{{ page.previous.url }}" class="read-more-btn">Read Similar</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+      <p>{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 140 }}&hellip;{% endif %} <a href="{{ site.url }}{{ post.url }}">Continue reading</a></p>
+    </div><!-- /.read-more-content -->
+  {% endfor %}
+  <div class="read-more-list">
+  {% if page.next.url %}
+  <div class="list-item previous">
+        <h4><a href="{{page.next.url}}" title="{{ page.next.title }}">{{ page.next.title }}</a></h4>
+        <span>Published on {{ page.next.date | date: "%B %d, %Y" }}</span>
+          {% endif %}
+      </div><!-- /.list-item -->
+            
+  {% if page.previous.url %}
+  <div class="list-item next">
+        <h4><a href="{{page.previous.url}}" title="{{ page.previous.title }}">{{ page.previous.title }}</a></h4>
+        <span>Published on {{ page.previous.date | date: "%B %d, %Y" }}</span>
+          {% endif %}
+      </div><!-- /.list-item -->
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->

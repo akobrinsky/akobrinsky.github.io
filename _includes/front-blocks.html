@@ -1,0 +1,41 @@
+<div class="front-block concert-block">
+<h2><a href="/concerts">Concerts</a></h2>
+{% assign curDate = site.time | date: '%s' %}
+{% for concert in site.concerts %}
+    {% assign postStartDate = concert.date | date: '%s' %}
+    {% if postStartDate >= curDate %}
+        <div class="concert-listing">{{concert.date | date: "%a %b %d %Y "}} :: <a href="{{ concert.url }}">{{ concert.title }}</a></div>
+    {% endif %}
+{% endfor %}
+</div>
+<div class="front-block post-block">
+<h2><a href="/posts">News</a></h2>
+{% for post in site.posts limit:5 %}
+<div class="posting"><a href="{{ post.url }}">{{ post.title }}</a></div>
+{% endfor %}
+</div>
+<div class="front-block audio-block">
+<h2><a href="/audio">Audio</a></h2>
+{% assign amount = 0 %}
+{% for audio in site.audios %}
+{% capture amount %}{{ amount | plus:1 }}{% endcapture %}
+<div id="jquery_jplayer_{{ amount }}" class="jp-jplayer"></div>
+<div id="jp_container_{{ amount }}" class="jp-audio" role="application" aria-label="media player">
+  <div class="jp-type-single">
+    <div class="jp-gui jp-interface">
+      <div class="jp-controls-holder">
+        <div class="jp-controls">
+          <button class="jp-play" role="button" tabindex="0">play</button>
+        </div>
+      </div>
+    </div>
+    <span class="audio-title">{{ audio.title }}</span> - <span class="audio-band">{{ audio.band }}</span>
+
+    <div class="jp-no-solution">
+      <span>Update Required</span>
+      To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+    </div>
+  </div>
+</div>
+{% endfor %}
+</div><!-- audio block -->
