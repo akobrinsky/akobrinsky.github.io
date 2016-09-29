@@ -50,6 +50,8 @@
 				<li><a href="{{ site.url }}/posts/">Old Concerts</a></li>
 			</ul>
 		</li>
+			    <li><a href="{{ site.url }}/audio/">Audio</a></li>
+
 			{% if site.owner.email %}<li>
 					<a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i> Email</a>
 				</li>{% endif %}
@@ -86,7 +88,6 @@
 	        {% else %}
 	        {% assign domain = site.url %}
 	    {% endif %}
-	    <li><a href="{{ site.url }}/audio/">Audio</a></li>
 
 	    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a></li>
 
