@@ -125,7 +125,9 @@ body {
 		vertical-align: middle;
 		margin: 0 auto;
 		text-align: center;
-	}
+    	background: -webkit-linear-gradient(bottom, rgba(0,0,0.0), rgba(0,0,0,0.38));
+    	background: linear-gradient(to top, rgba(0,0,0.0), rgba(0,0,0,0.38));	
+    	}
 
 	h1 {
 		margin: 10px;
