@@ -6,6 +6,7 @@ image:
   background: bg7.png
 comments: false
 share: false
+permalink: bio
 ---
 ## About Aryeh
 Born in Winnipeg, Manitoba...
