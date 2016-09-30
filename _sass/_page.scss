@@ -847,3 +847,8 @@ header .entry-meta {
 		margin: 10px 0 0 0;
 	}
 }
+.block-wrapper .concert listing, .block-wrapper .posting {
+	a {
+	border-bottom: 1px dotted;
+	}
+}
