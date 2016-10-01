@@ -834,9 +834,12 @@ header .entry-meta {
 	list-style-type: none;
 	padding: 0;
 	@media #{$medium} {
-	font-weight: bold;
+		.cl-date {
+			float: left;
+		}
 	}
 }
+
 .jp-audio {
 	overflow: hidden;
 	display: block;
