@@ -717,10 +717,8 @@ header .entry-meta {
   }
 }
 .concert-block {
-background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0.62) 41%, rgba(255,255,255,0.8) 65%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,0.62) 41%,rgba(255,255,255,0.8) 65%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,0.62) 41%,rgba(255,255,255,0.8) 65%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */  padding: 27px 28px;
+background: rgba(255,255,255, 0.8) none repeat scroll 0 0;
+padding: 27px 28px;
   a {
   	color: $dark;
   }
@@ -863,4 +861,47 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 	a {
 	border-bottom: 1px dotted;
 	}
+}
+input, textarea {
+  background: #fff none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  font-family: "proxima-nova-soft",sans-serif;
+  font-size: 0.8em;
+  padding: 0.9em;
+  transition: all 0.3s ease-in-out 0s;
+  width: 100%;
+}
+form input, form textarea {
+  margin-bottom: 0.5em;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  height: 200px;
+}
+form button, form a.button {
+  background: transparent none repeat scroll 0 0;
+  border: 2px solid #359173;
+  color: #359173;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1em;
+  padding: 0.6em 0.9em;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out 0s;
+}
+input:focus, textarea:focus {
+  border-color: #2a735b;
+  box-shadow: 0 0 5px 1px #359173;
+  outline: medium none;
+}
+// contact info
+.email-info {
+  font-size: 50px;
+  margin: 0 auto;
+  width: 50px;
+}
+.contact-text {
+  margin: 20px 0;
+  text-align: center;
 }
