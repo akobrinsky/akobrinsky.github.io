@@ -833,6 +833,9 @@ header .entry-meta {
 	margin: 0;
 	list-style-type: none;
 	padding: 0;
+	@media #{$medium} {
+	font-weight: bold;
+	}
 }
 .jp-audio {
 	overflow: hidden;
