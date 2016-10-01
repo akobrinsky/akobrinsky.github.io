@@ -38,12 +38,12 @@
 $("#sendMessage").on("click", function() {
     message = $("#contactform").serialize();
     $.ajax({
-        url: "//formspree.io/dynamicrealities@gmail.com", 
+        url: "//formspree.io/aryeh.kobrinsky@gmail.com", 
         method: "POST",
         data: {message: message},
         dataType: "json"
     });
-    alert('Thanks for the email, we\'ll be in touch promptly.');
+    alert('Thanks for the email, I\'ll be in touch soon!');
     return false;
 });
     });
