@@ -1,5 +1,6 @@
 ---
 title: Hush Point at Cornelia St Cafe
+description: Hush Point plays Cornelia St Cafe Nov 24, 2017
 layout: concert
 time: 9pm and 10:30pm
 breadcrumb: concerts
@@ -18,4 +19,5 @@ Anthony Pinciotti - drums
 
 ## Cornelia Street Cafe  
 29 Cornelia St, New York, NY 10014  
-(212) 989-9319
+(212) 989-9319  
+[cornelia street cafe](http://corneliastreetcafe.com/downstairs/performances.asp)

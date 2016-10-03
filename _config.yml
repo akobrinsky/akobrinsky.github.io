@@ -7,7 +7,7 @@ words_per_minute: 200
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 paginate_path: "/posts/page:num/"
-url: "http://aryehkobrinsky.com"
+url:
 collections:
  posts:
   output: true
@@ -25,6 +25,8 @@ defaults:
     values:
       layout: concert
       breadcrumb: concerts
+      image:
+       background: lightbg1.png
   - scope:
       path: ""
       type: posts

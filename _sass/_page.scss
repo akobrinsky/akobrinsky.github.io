@@ -13,7 +13,7 @@ body {
 		background: transparent url("/images/full-bg2.jpg") no-repeat scroll 50% 100px;
 
 		@media #{$small} {
-			background: transparent url("/images/full-bg2.jpg") no-repeat scroll 50% 150px;
+			background: transparent url("/images/full-bg2.jpg") no-repeat scroll 50% 62px;
 		}
 		@media #{$medium} {
 			background: transparent url("/images/full-bg2.jpg") no-repeat scroll 50% 63px;
@@ -790,38 +790,38 @@ padding: 27px 28px;
 		}
 	}
 }
-#post-index {
-	#main {
-		@media #{$medium} {
-			margin-left: 20px;
-			margin-right: 20px;
-		}
+// #post-index {
+// 	#main {
+// 		@media #{$medium} {
+// 			margin-left: 20px;
+// 			margin-right: 20px;
+// 		}
 
-		@media #{$large} {
-			max-width: 800px;
-			margin-top: 0;
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
+// 		@media #{$large} {
+// 			max-width: 800px;
+// 			margin-top: 0;
+// 			margin-left: auto;
+// 			margin-right: auto;
+// 		}
+// 	}
 
-	article {
-		background-color: #fff;
-		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
-		border-radius: 3px;
-		margin-bottom: 20px;
-		padding: 25px 15px;
+// 	article {
+// 		background-color: #fff;
+// 		box-shadow: 0 0 0 0, 0 6px 12px rgba($base-color,0.1);
+// 		border-radius: 0 0 3px 3px;
+// 		margin-bottom: 20px;
+// 		padding: 25px 15px;
 
-		@media #{$medium} {
-			padding: 30px;
-		}
+// 		@media #{$medium} {
+// 			padding: 30px;
+// 		}
 
-		@media #{$large} {
-			margin-bottom: 30px;
-			padding: 50px 80px;
-		}
-	}
-}
+// 		@media #{$large} {
+// 			margin-bottom: 30px;
+// 			padding: 50px 80px;
+// 		}
+// 	}
+// }
 #front-page .jp-controls {
 	width: 25px;
 }
@@ -847,7 +847,13 @@ padding: 27px 28px;
 	display: block;
 }
 .block-wrapper {
-	margin: 140px 0;
+		margin-top: 235px;	
+				@media #{$small} {
+		margin-top: 244px;
+	}
+		@media #{$medium} {
+		margin-top: 205px;
+	}
 }
 .block-wrapper {
 	.posting {
@@ -881,18 +887,22 @@ textarea {
 }
 form button, form a.button {
   background: transparent none repeat scroll 0 0;
-  border: 2px solid #359173;
-  color: #359173;
+  border: 2px solid $dark;
+  color: $dark;
   font-size: 1em;
   font-weight: 600;
   line-height: 1em;
   padding: 0.6em 0.9em;
   text-transform: uppercase;
   transition: all 0.3s ease-in-out 0s;
+  &:hover {
+  	color: $fun;
+  	border-color: $fun;
+  }
 }
 input:focus, textarea:focus {
-  border-color: #2a735b;
-  box-shadow: 0 0 5px 1px #359173;
+  border-color: $fun;
+  box-shadow: 0 0 5px 1px lighten($fun,20);
   outline: medium none;
 }
 // contact info

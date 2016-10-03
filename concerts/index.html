@@ -3,9 +3,11 @@ layout: post-index
 title: Concerts
 description: "Aryeh Kobrinsky upcoming concerts"
 comments: false
+image:
+ background: lightbg1.png
 ---
 <article>
-{% for concert in site.concerts reversed %}
+{% for concert in site.concerts %}
   {% assign currentdate = concert.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul>{% endunless %}
