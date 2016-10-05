@@ -507,7 +507,7 @@ header .entry-meta {
 		.breadcrumb-wrapper {
 		box-shadow: 0 0 0 0, 0 6px 12px rgba(#000,0.1);
 		border-radius: 3px 3px 0 0;
-		background: #c9c9c9 none repeat scroll 0 0;
+		background: rgba(0,0,0,0.6);
 		margin: 30px auto 0;
 	    padding: 10px;
 	    text-transform: uppercase;
@@ -774,7 +774,7 @@ padding: 27px 28px;
 	.breadcrumb-wrapper {
 		box-shadow: 0 0 0 0, 0 6px 12px rgba(#000,0.1);
 		border-radius: 3px 3px 0 0;
-		background: #c9c9c9 none repeat scroll 0 0;
+		background: rgba(0,0,0,0.6);
 		margin: 18px auto 0;
 	    padding: 10px;
 	    text-transform: uppercase;
@@ -914,4 +914,7 @@ input:focus, textarea:focus {
 .contact-text {
   margin: 20px 0;
   text-align: center;
+}
+.breadcrumb-wrapper a {
+	color: #fff;
 }
