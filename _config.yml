@@ -13,7 +13,7 @@ collections:
   output: true
  concerts:
   output: true
-  permalink: /:year/:month/:day/:title/
+  permalink: /:collection/:year/:month/:day/:title/
  audios:
   output: false
 
