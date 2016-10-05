@@ -163,9 +163,9 @@ svg:not(:root) {
 }
 
 .btn-info {
-  background-color: $info;
+  background-color: $fun;
   color: #fff;
-  border-color: $info;
+  border-color: $fun;
 
   &:visited {
     color: #fff;
@@ -173,7 +173,7 @@ svg:not(:root) {
 
   &:hover {
     background-color: #fff;
-    color: $info;
+    color: $fun;
   }
 }
 
