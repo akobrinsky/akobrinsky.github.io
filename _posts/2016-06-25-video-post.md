@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hush Point
+title: Hush Point Trailer
 description: "Hush Point trailer... check it out!"
 tags: [video]
 ---
