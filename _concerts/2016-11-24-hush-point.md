@@ -1,7 +1,6 @@
 ---
 title: Hush Point at Cornelia St Cafe
 description: Hush Point plays Cornelia St Cafe Nov 24, 2017
-layout: concert
 time: 9pm and 10:30pm
 image: 
  feature: hushpoint-locksmith.jpg
