@@ -909,13 +909,17 @@ input:focus, textarea:focus {
 	color: #fff;
 }
 #mce-EMAIL {
-  float: left;
-  margin-right: 8px;
-  width: 75%;
+  @media #{$small} {
+			  float: left;
+			  margin-right: 8px;
+			  width: 75%;
+	}
 }
 #mc-embedded-subscribe {
-  float: left;
-  width: 21%;
+  @media #{$small} {
+			  float: left;
+			  width: 21%;
+	}
 }
 #mc_embed_signup {
 	overflow: auto;
