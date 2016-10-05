@@ -11,6 +11,7 @@ url: "http://aryehkobrinsky.com"
 collections:
  posts:
   output: true
+  permalink: /:collection/:year/:month/:day/:title/
  concerts:
   output: true
   permalink: /:collection/:year/:month/:day/:title/
