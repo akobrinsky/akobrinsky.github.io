@@ -12,3 +12,24 @@ This site is hosted on [github pages](https://github.com/) 100% free. I can writ
 
 ## How concerts are posted
 
+I use Jekyll's collections for a concert post. In the root directory I added a folder called "_concerts" which holds my concert files. In my `_config.yml` I added some settings for this collection:
+
+```yaml
+collections:
+ concerts:
+  output: true
+  permalink: /:collection/:year/:month/:day/:title/
+```
+Setting `output: true` tells Jekyll to create individual posts for each concert. I also added some default settings for the concert with the following:
+
+```yaml
+defaults:
+  - scope:
+      path: ""
+      type: concerts
+    values:
+      layout: concert
+      breadcrumb: concerts
+      image:
+       background: lightbg1.png
+```
