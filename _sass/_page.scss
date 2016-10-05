@@ -693,13 +693,6 @@ header .entry-meta {
 	color: #222222;
 	}
 }
-#mc_embed_signup form {
-
-}
-#mc_embed_signup label {
-  display: none !important;
-}
-
 
 .big-concert-date, .big-concert-time {
 	font-size: 25px;
@@ -914,4 +907,16 @@ input:focus, textarea:focus {
 }
 .breadcrumb-wrapper a {
 	color: #fff;
+}
+#mce-EMAIL {
+  float: left;
+  margin-right: 8px;
+  width: 75%;
+}
+#mc-embedded-subscribe {
+  float: left;
+  width: 21%;
+}
+#mc_embed_signup {
+	overflow: auto;
 }
