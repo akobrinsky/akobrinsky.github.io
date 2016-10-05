@@ -54,6 +54,7 @@ image:
 ```
 
 So in this front matter, I am 
+
 * setting a custom title
 * writing a short decription that will show up in metadata and will show up in social shares
 * concert time(s)
