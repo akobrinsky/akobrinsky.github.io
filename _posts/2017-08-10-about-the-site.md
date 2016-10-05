@@ -38,6 +38,7 @@ defaults:
 In Jekyll, posts are written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet){:target="_blank"}. Theming and layouts are done with [liquid](https://shopify.github.io/liquid/){:target="_blank"} which is incredibly easy, intuitive and fun to use! Let's say I want to make a concert post, I'll use this [Hush Point post](/concerts/2016/11/24/hush-point/) as an example. I make a file named `yyyy-mm-dd-title` in this case it was named `2016-11-24-hush-point`. This naming convention is strict and important. I use the date that in front of the name as the date of the concert. In normal posts, this would be the date the post was published, but in the concert post, this is the date of the concert. 
 
 I then declare some values in the YAML front matter as data to be called all over the site and on the actual post via liquid. I already set defaults in the `_config.yml` so I don't have to declare them every time I create a concert post. In the hush point post, here is what is written:
+
 ```markdown
 ---
 title: Hush Point at Cornelia St Cafe
@@ -51,6 +52,7 @@ image:
  creditlink: http://zachariahkobrinsky.com
 ---
 ```
+
 So in this front matter, I am 
 * setting a custom title
 * writing a short decription that will show up in metadata and will show up in social shares
@@ -60,6 +62,7 @@ So in this front matter, I am
 * overriding the page background that was set in config.yml
 
 An important thing to note is that by default, future posts will not be published unless you change this setting in your `_config.yml` with:
+
 ```yaml
 future: true
 ```
