@@ -558,7 +558,9 @@ header .entry-meta {
 		border-radius: 3px;
 		margin-bottom: 20px;
 		padding: 25px 15px;
-
+		&:nth-child {
+		border-radius: 0;
+		}
 		@media #{$medium} {
 			padding: 30px;
 		}
@@ -591,6 +593,9 @@ header .entry-meta {
 
 	img {
 		border-radius: 3px 3px 0 0; // round image corners
+		&:nth-child {
+		border-radius: 0;
+		}
 	}
 }
 
