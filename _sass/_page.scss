@@ -842,7 +842,7 @@ padding: 27px 28px;
 		margin-top: 244px;
 	}
 		@media #{$medium} {
-		margin-top: 205px;
+		margin: 185px 0 40px 0;
 	}
 }
 .block-wrapper {
@@ -909,14 +909,16 @@ input:focus, textarea:focus {
 	color: #fff;
 }
 #mce-EMAIL {
-  @media #{$small} {
-			  float: left;
-			  margin-right: 8px;
-			  width: 75%;
+background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	  color: white;
+  @media #{$medium} {
+	  float: left;
+	  margin-right: 8px;
+	  width: 75%;
 	}
 }
 #mc-embedded-subscribe {
-  @media #{$small} {
+  @media #{$medium} {
 			  float: left;
 			  width: 21%;
 	}
