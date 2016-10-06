@@ -13,7 +13,7 @@ Jeremy Udden - saxophone
 Aryeh Kobrinsky - bass  
 Anthony Pinciotti - drums
 
-(Night One - Friday)[/concerts/2016-11-24-hush-point]
+[Night One](/concerts/2016-11-24-hush-point)
 
 ***
 
