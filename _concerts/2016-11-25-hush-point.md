@@ -1,6 +1,6 @@
 ---
-title: Hush Point at Cornelia St Cafe Night Two
-description: Hush Point plays Cornelia St Cafe Nov 25, 2017
+title: Hush Point at Cornelia St Cafe Night One
+description: Hush Point plays Cornelia St Cafe Nov 24, 2017
 time: 9pm and 10:30pm
 image: 
  feature: hushpoint-locksmith.jpg
@@ -12,8 +12,6 @@ John McNeil - trumpet
 Jeremy Udden - saxophone  
 Aryeh Kobrinsky - bass  
 Anthony Pinciotti - drums
-
-[Night One](/concerts/2016-11-24-hush-point)
 
 ***
 
