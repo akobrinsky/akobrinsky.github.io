@@ -9,7 +9,8 @@ image:
 <article>
 
 {% assign amount = 0 %}
-{% for audio in site.audios %}
+{% assign sortedAudio = site.audios | sort: 'band' %}
+{% for audio in sortedAudio %}
 {% capture amount %}{{ amount | plus:1 }}{% endcapture %}
 <div id="jquery_jplayer_{{ amount }}" class="jp-jplayer"></div>
 <div id="jp_container_{{ amount }}" class="jp-audio" role="application" aria-label="media player">
