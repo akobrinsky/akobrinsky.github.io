@@ -11,7 +11,7 @@ share: false
 	<a href="/images/full/aryehkobrinsky-moose-full.jpg"><img src="/images/medium/aryehkobrinsky-moose.png" alt=""></a>
 </figure>
 <figure>
-	<a href="/images/full/aryehkobrinsky-jump-bass-full.jpg"><img src="aryehkobrinsky-jump-bass.png" alt=""></a>
+	<a href="/images/full/aryehkobrinsky-jump-bass-full.jpg"><img src="/images/medium/aryehkobrinsky-jump-bass.png" alt=""></a>
 </figure>
 <figure class="half">
 	<a href="/images/full/aryehkobrinsky-full.jpg"><img src="/images/medium/aryehkobrinsky.png" alt=""></a>
