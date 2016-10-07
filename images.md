@@ -1,6 +1,6 @@
 ---
 layout: page
-title: contact
+title: Images
 image:
  background: lightbg10.png
 share: false
@@ -10,7 +10,7 @@ share: false
 	<a href="/images/full/aryehkobrinsky-jump-bass-full.jpg"><img src="/images/full/aryehkobrinsky-jump-bass-full.jpg" alt=""></a>
 </figure>
 <figure class="half">
-	<a href="/images/full/aryehkobrinsky-moose-full.jpg"><img src="/images/full/aryehkobrinsky-moose-full.jpg" alt=""></a>
+	<a href="/images/full/aryehkobrinsky-jump-full.jpg"><img src="/images/full/aryehkobrinsky-jump-full.jpg" alt=""></a>
 	<a href="/images/full/aryehkobrinsky-moose-full.jpg"><img src="/images/full/aryehkobrinsky-moose-full.jpg" alt=""></a>
 	<figcaption>Photo credit: Zachariah Kobrinsky <a href="http://zachariahkobrinsky.com">zachariahkobrinsky.com</a></figcaption>
 </figure>
