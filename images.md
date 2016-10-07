@@ -14,4 +14,5 @@ share: false
 <figure>
 	<a href="/images/full/aryehkobrinsky-jump-bass-full.jpg"><img src="/images/medium/aryehkobrinsky-jump.png" alt=""></a>
 </figure>
+<i class="fa fa-file-zip-o"><a href="/images/aryeh-kobrinsky-press-images.zip">Click to download zip of all high-res images</a></i>
 </article>
