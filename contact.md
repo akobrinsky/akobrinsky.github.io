@@ -2,7 +2,7 @@
 layout: page
 title: contact
 image:
- background: lightbg10.png
+ background: lightbg1.png
 share: false
 ---
 <div class="email-info">

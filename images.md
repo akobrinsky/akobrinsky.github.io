@@ -2,7 +2,7 @@
 layout: page
 title: Images
 image:
- background: darkbg6.png
+ background: lightbg1.png
 share: false
 ---
 <article>
