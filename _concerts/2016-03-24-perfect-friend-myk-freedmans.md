@@ -1,6 +1,6 @@
 ---
-title: Fire Sloth: Perfect Friend, Myk Freedman and the Myk Freedmans
-description: Fire Sloth: Perfect Friend, Myk Freedman and the Myk Freedmans
+title: Fire Sloth Presents Perfect Friend, Myk Freedman and the Myk Freedmans
+description: Fire Sloth Presents Perfect Friend, Myk Freedman and the Myk Freedmans
 time: 8:30pm
 ---
 
