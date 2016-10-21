@@ -3,6 +3,7 @@ title: Fire Sloth: Perfect Friend, Myk Freedman and the Myk Freedmans
 description: Fire Sloth: Perfect Friend, Myk Freedman and the Myk Freedmans
 time: 8:30pm
 ---
+
 Perfect Friend, 8pm
 Breaking social and musical conventions, this group turns their unique brand of avantjazz music inside out right in front of you. Bring a friend.
 "bullshit-proof jazz" chicago reader, "out jazz with punk attitude" jazztimes, "A YOUNG TRUMPET PLAYER YOU MUST HEAR." -BRUCE CHIDESTER, THETRUMPETBLOG.COM.
