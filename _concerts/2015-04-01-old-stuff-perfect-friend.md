@@ -1,6 +1,6 @@
 ---
-title: A.E. Randolph Presents: Old Stuff & Perfect Friend
-description: A.E. Randolph Presents: Old Stuff & Perfect Friend
+title: A.E. Randolph Presents Old Stuff & Perfect Friend
+description: A.E. Randolph Presents Old Stuff & Perfect Friend
 time: 9pm
 ---
 
