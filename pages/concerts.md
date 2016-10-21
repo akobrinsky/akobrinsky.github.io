@@ -3,6 +3,7 @@ layout: post-index
 title: Concerts
 description: "Aryeh Kobrinsky upcoming concerts"
 comments: false
+permalink: concerts
 image:
  background: lightbg1.png
 ---
