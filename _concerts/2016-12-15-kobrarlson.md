@@ -1,5 +1,5 @@
 ---
-title: Dustin Carlson Aryeh Kobrinsky Duo at Happy Lucky No 1
+title: Kobrarlson Duo at Happy Lucky No 1
 layout: concert
 time: 7pm
 image:
