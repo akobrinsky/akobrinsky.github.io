@@ -1,3 +1,7 @@
+<div class="front-block">
+<img src="/images/soloshmolo.jpg" alt="SOLO SHMOLO">
+</div>
+
 <div class="front-block concert-block">
 <h2><a href="/concerts">Concerts</a></h2>
 {% assign curDate = site.time | date: '%s' %}
@@ -7,10 +11,6 @@
         <div class="concert-listing"><div class="cl-date">{{concert.date | date: "%a %b %d %Y "}} :: </div><div class="cl-title"><a href="{{ concert.url }}">{{ concert.title }}</a></div></div>
     {% endif %}
 {% endfor %}
-</div>
-
-<div class="front-block">
-<img src="/images/soloshmolo.jpg" alt="SOLO SHMOLO">
 </div>
 
 <div class="front-block post-block">
