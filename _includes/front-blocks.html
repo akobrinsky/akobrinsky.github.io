@@ -1,6 +1,6 @@
 <div class="front-block concert-block">
 <h2><a href="/concerts">Concerts</a></h2>
-{% assign curDate = site.time | date: '%s' %}
+{% assign curDate = site.time | minus : 604800 | date: '%s' %}
 {% for concert in site.concerts %}
     {% assign postStartDate = concert.date | date: '%s' %}
     {% if postStartDate >= curDate %}
