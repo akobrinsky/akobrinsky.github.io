@@ -1,10 +1,15 @@
 ---
-title: Hush Point at Outpost 186 Cambridge
-time: 8pm
+title: Hush Point at Montague Bookmill
+time: 7:30pm
 image:
  feature: hushpoint-locksmith.jpg
 ---
-**Hush Point**  
+Celebrating our third Sunnyside Records release "Hush Point III" with special guest Nathan "Hobbs" Blehar
+
+**Set I: Nathan “Hobbs” Blehar**  
+Solo guitar and voice
+
+**Set II: Hush Point**  
 John Mcneil - trumpet  
 Jeremy Udden - saxophone  
 Aryeh Kobrinsky - bass  
@@ -21,5 +26,5 @@ A modern New York take on the “West Coast” jazz of the 50’s, Hush Point is
 
 $10
 
-**Outpost 186**   
-186 1/2 Hampshire St, Inman Square, 02139
+**The Montague Bookmill**  
+440 Old Greenfield Rd, Montague, Massachusetts 01351

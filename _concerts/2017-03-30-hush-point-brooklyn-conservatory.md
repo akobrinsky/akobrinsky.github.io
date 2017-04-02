@@ -1,14 +1,20 @@
 ---
-title: Hush Point at Outpost 186 Cambridge
+title: Hush Point at Brooklyn Conservatory of Music
 time: 8pm
 image:
  feature: hushpoint-locksmith.jpg
 ---
-**Hush Point**  
+**Hush Point** celebrates their third Sunnyside Records release, Hush Point III, in the intimate Brooklyn Conservatory of Music concert hall.
+
+Hush Point  
 John Mcneil - trumpet  
 Jeremy Udden - saxophone  
 Aryeh Kobrinsky - bass  
 Anthony Pinciotti - drums
+
+Tickets are $5 for students; $10 for seniors, $15 in advance, and $20 at the door.
+
+Advance tickets are available at Jet Video and Starbird Music in Portland and Gulf Of Maine Books in Brunswick.
 
 A modern New York take on the “West Coast” jazz of the 50’s, Hush Point is “setting the new standard for the pianoless jazz quartet” (JAZZIZ) producing “dry and intimate and surprising music, swing rhythm subtly stretched into more up-to-date grooves, emotional dynamics present but suppressed. It’s also an extended experiment in careful improvising, using counterpoint to move quickly and unsentimentally toward the open spaces.” (NY Times)
 
@@ -19,7 +25,8 @@ A modern New York take on the “West Coast” jazz of the 50’s, Hush Point is
 **CHICAGO READER**  
 [hushpoint.com](hushpoint.com)
 
-$10
+$15
 
-**Outpost 186**   
-186 1/2 Hampshire St, Inman Square, 02139
+**Brooklyn Conservatory of Music**  
+58 7th Ave  
+Brooklyn, NY 11217
