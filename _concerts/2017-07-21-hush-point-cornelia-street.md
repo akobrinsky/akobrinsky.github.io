@@ -1,7 +1,10 @@
 ---
+title: Hush Point at Cornelia Street Cafe
+time: 9pm
 image:
  feature: hushpoint-locksmith.jpg
 ---
+
 **Hush Point**  
 John Mcneil - trumpet  
 Jeremy Udden - saxophone  
