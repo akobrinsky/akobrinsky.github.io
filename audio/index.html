@@ -8,8 +8,9 @@ image:
 ---
 <article>
 
+<div class="front-block audio-block">
 {% assign amount = 0 %}
-{% for audio in sortedAudio %}
+{% for audio in site.audios %}
 {% capture amount %}{{ amount | plus:1 }}{% endcapture %}
 <div id="jquery_jplayer_{{ amount }}" class="jp-jplayer"></div>
 <div id="jp_container_{{ amount }}" class="jp-audio" role="application" aria-label="media player">
@@ -17,10 +18,8 @@ image:
     <div class="jp-gui jp-interface">
       <div class="jp-controls-holder">
         <div class="jp-controls">
-          <button class="jp-play" title="{{ audio.title }}" role="button" tabindex="0">play</button>
+          <button class="jp-play" role="button" tabindex="0">play</button>
         </div>
-        <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
-        <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
       </div>
     </div>
     <span class="audio-title">{{ audio.title }}</span> - <span class="audio-band">{{ audio.band }}</span>
@@ -32,6 +31,7 @@ image:
   </div>
 </div>
 {% endfor %}
+</div><!-- audio block -->
 
 
 </article>
