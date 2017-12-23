@@ -10,7 +10,7 @@ image:
 
 <div class="front-block audio-block">
 {% assign amount = 0 %}
-{% assign sorted = (site.audios | sort: 'audio.band') | reverse %}
+{% assign sorted = (site.audio | sort: 'audio.band') | reverse %}
 {% for audio in sorted %}
 {% capture amount %}{{ amount | plus:1 }}{% endcapture %}
 <div id="jquery_jplayer_{{ amount }}" class="jp-jplayer"></div>
