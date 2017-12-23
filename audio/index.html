@@ -10,8 +10,8 @@ image:
 
 <div class="front-block audio-block">
 {% assign amount = 0 %}
-{% assign sorted = (site.audio | sort: 'audio.band') | reverse %}
-{% for item in sorted %}
+{% assign sorted = (site.audios | sort: 'audio.band') | reverse %}
+{% for audio in sorted %}
 {% capture amount %}{{ amount | plus:1 }}{% endcapture %}
 <div id="jquery_jplayer_{{ amount }}" class="jp-jplayer"></div>
 <div id="jp_container_{{ amount }}" class="jp-audio" role="application" aria-label="media player">
