@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Images
-image:
- background: lightbg1.png
-share: false
+bgimage: plaid-crop.jpg
 ---
 <article>
 <figure class="half">

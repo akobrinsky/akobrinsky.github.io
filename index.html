@@ -1,10 +1,90 @@
 ---
-layout: front-page
-title: Aryeh Kobrinsky
-description: Bassist, composer, educator
-tags: [Jekyll, theme, themes, responsive, blog, modern]
-comments: false
+layout: default
 ---
-<div class="block-wrapper">
-{% include front-blocks.html %}
-</div>
+  <div class="py-5 text-center cover d-flex flex-column bg-dark">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="mx-auto col-lg-8 col-md-10">
+          <h1 class="display-1 mb-0 mt-5 big-title"><span class="brinskbox">Aryeh Ko<span class="brinsk">brinsk</span>y</span></h1>
+          <h3 class="mt-4 mb-2"><b>{{ site.description }}</b></h3>
+                <ul class="footer-social main-social inline">
+        
+        {% if site.owner.instagram %}<li class="list-inline-item">
+          <a href="https://instagram.com/{{ site.owner.instagram }}" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+        </li>{% endif %}
+        {% if site.owner.facebook %}<li class="list-inline-item">
+          <a href="https://facebook.com/{{ site.owner.facebook }}" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
+        </li>{% endif %}
+        {% if site.owner.google_plus %}<li class="list-inline-item">
+          <a href="https://google.com/{{ site.owner.google_plus }}" target="_blank"><i class="fa fa-fw fa-google-plus"></i></a>
+        </li>{% endif %}
+        {% if site.owner.linkedin %}<li class="list-inline-item">
+          <a href="https://linkedin.com/in/{{ site.owner.linkedin }}" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
+        </li>{% endif %}
+        {% if site.owner.github %}<li class="list-inline-item">
+          <a href="https://github.com/{{ site.owner.github }}" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+        </li>{% endif %}
+        {% if site.owner.stackexchange %}<li class="list-inline-item">
+          <a href="{{ site.owner.stackexchange }}" target="_blank"><i class="fa fa-fw fa-stack-exchange"></i></a>
+        </li>{% endif %}
+        {% if site.owner.flickr %}<li class="list-inline-item">
+          <a href="https://www.flickr.com/photos/{{ site.owner.flickr }}" target="_blank"><i class="fa fa-fw fa-flickr"></i></a>
+        </li>{% endif %}
+        {% if site.owner.tumblr %}<li class="list-inline-item">
+          <a href="http://{{ site.owner.tumblr }}.tumblr.com" target="_blank"><i class="fa fa-fw fa-tumblr"></i></a>
+        </li>{% endif %}
+        {% if site.owner.twitter %}<li class="list-inline-item">
+          <a href="https://twitter.com/{{ site.owner.twitter }}" target="_blank"><i class="fa fa-fw fa-twitter"></i></a>
+        </li>{% endif %}
+        {% if site.owner.email %}<li class="list-inline-item">
+          <a href="mailto:{{ site.owner.email }}" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
+        </li>{% endif %}
+      </ul><!-- /.dl-submenu -->
+        </div>
+      </div>
+    </div>
+    <div class="container mt-auto">
+      <div class="row">
+        <div class="mx-auto col-lg-6 col-md-8 col-10">
+          <a href="#mission"><i class="d-block fa fa-angle-down fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 filter-dark cover bg-fixed mainimg" id="mission">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-md-8 p-3 text-white">
+          {%- include quotes.html -%}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="pt-3 bg-light" id="concerts">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-12 px-md-4">
+          <h2 class="mb-2"><a href="{{ site.url }}/concerts">Concerts</a></h2>
+          <div class="row text-left">
+            <div class="px-3 pb-4 col-lg-6 col-md-6 col-sm-1">
+                <div class="front-block concert-block">
+
+                  {% assign sorted = site.concerts | sort: 'date' | reverse %}
+                  {% for item in sorted limit:5 %}
+                        <div class="concert-listing"><div class="cl-date">{{ item.date | date: "%a %b %d %Y "}}</div><div class="cl-title"><a href="{{ item.url }}">{{ item.title }}</a></div></div>
+                        {% endfor %}
+                </div>
+          </div>
+          <div class="px-3 pb-4 col-lg-6 col-md-6 col-sm-1">
+                <div class="front-block concert-block">
+                  {% for item in sorted limit:5 offset:5 %}
+                        <div class="concert-listing"><div class="cl-date">{{ item.date | date: "%a %b %d %Y "}}</div><div class="cl-title"><a href="{{ item.url }}">{{ item.title }}</a></div></div>
+                        {% endfor %}
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {%- include footer.html -%}

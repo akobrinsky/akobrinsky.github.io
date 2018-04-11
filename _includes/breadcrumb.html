@@ -1,0 +1,16 @@
+<div class="bg-dark">
+  <div class="container my-auto">
+    <div class="row">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{{ site.url }}">Home</a></li>
+          {% if page.path contains '_concerts' %}
+          <li class="breadcrumb-item"><a href="{{ site.url }}/concerts">Concerts</a></li>
+          {% elsif page.path contains '_posts' %}
+          <li class="breadcrumb-item">Posts</li>
+          {% endif %}
+        </ol>
+      </nav>
+    </div>
+  </div>
+</div>  

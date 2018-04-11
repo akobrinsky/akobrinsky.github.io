@@ -1,0 +1,44 @@
+    <header class="masthead">
+      <div class="row">
+      <div class="container text-center">
+<div class="cover-container pb-5">
+        <div class="cover-inner container">
+          <h1 class="jumbotron-heading"><span class="brinsk-box">Aryeh Ko<span class="brinsky">brinsk</span>y</span></h1>
+          <h2 class="brinskysub">{{ site.description }}</h2>
+        <ul class="list-inline main-social">
+        {% if site.owner.email %}<li class="list-inline-item">
+          <a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i></a>
+        </li>{% endif %}
+        {% if site.owner.twitter %}<li class="list-inline-item">
+          <a href="https://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-fw fa-twitter"></i></a>
+        </li>{% endif %}
+        {% if site.owner.facebook %}<li class="list-inline-item">
+          <a href="https://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-fw fa-facebook"></i></a>
+        </li>{% endif %}
+        {% if site.owner.google_plus %}<li class="list-inline-item">
+          <a href="https://google.com/{{ site.owner.google_plus }}"><i class="fa fa-fw fa-google-plus"></i></a>
+        </li>{% endif %}
+        {% if site.owner.linkedin %}<li class="list-inline-item">
+          <a href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa fa-fw fa-linkedin"></i></a>
+        </li>{% endif %}
+        {% if site.owner.github %}<li class="list-inline-item">
+          <a href="https://github.com/{{ site.owner.github }}"><i class="fa fa-fw fa-github"></i></a>
+        </li>{% endif %}
+        {% if site.owner.stackexchange %}<li class="list-inline-item">
+          <a href="{{ site.owner.stackexchange }}"><i class="fa fa-fw fa-stack-exchange"></i></a>
+        </li>{% endif %}
+        {% if site.owner.instagram %}<li class="list-inline-item">
+          <a href="https://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-fw fa-instagram"></i></a>
+        </li>{% endif %}
+        {% if site.owner.flickr %}<li class="list-inline-item">
+          <a href="https://www.flickr.com/photos/{{ site.owner.flickr }}"><i class="fa fa-fw fa-flickr"></i></a>
+        </li>{% endif %}
+        {% if site.owner.tumblr %}<li class="list-inline-item">
+          <a href="http://{{ site.owner.tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr"></i></a>
+        </li>{% endif %}
+        </ul>
+        </div>
+      </div>
+      </div>
+      </div>
+    </header>

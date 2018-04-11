@@ -1,40 +1,32 @@
-title:            Aryeh Kobrinsky
-description:      New York bassist, composer and educator
-kicker:           Bassist // Composer // Educator
-disqus_shortname: 
-reading_time:     false
-words_per_minute: 200
-# Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-paginate_path: "/posts/page:num/"
-url: "http://aryehkobrinsky.com"
-collections:
- posts:
-  output: true
-  permalink: /:collection/:year/:month/:day/:title/
- concerts:
-  output: true
-  permalink: /:collection/:year/:month/:day/:title/
- audios:
-  output: false
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Aryeh Kobrinsky
+email: aryeh.kobrinsky@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  bassist / educator / composer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://aryehkobrinsky.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: shmaryeh
+github_username:  jekyll
 
-defaults:
-  - scope:
-      path: ""
-      type: concerts
-    values:
-      layout: concert
-      breadcrumb: concerts
-      image:
-       background: lightbg1.png
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      breadcrumb: posts   
-# Owner/author information
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 owner:
   name:           Aryeh Kobrinsky
   avatar:         avatar.jpg
@@ -51,67 +43,42 @@ owner:
   tumblr:         
   # google plus id, include the '+', eg +mmistakes
   google_plus: 
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+collections:
+ posts:
+  output: true
+  future: true
+  permalink: /:collection/:year/:month/:day/:title/
+ concerts:
+  output: true
+  future: true
+  published: true
+  permalink: /:collection/:year/:month/:day/:title/
+ audios:
+  output: false
 
-# Background image to be tiled on all pages
-background: 
-
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
-
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true  # publish future dated posts --  true, false (default) 
-highlighter: rouge
-markdown:    kramdown
-gems:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
-
-# Amount of post to show on home page
-paginate: 5
-
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-
-include: 
-  - .htaccess
-exclude: 
-  - "*.less"
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - CHANGELOG
-  - Capfile
-  - Gemfile
-  - Gruntfile.js
-  - LICENSE
-  - README
-  - Rakefile
-  - config
-  - gulpfile.js
-  - lib
-  - log
-  - node_modules
-  - package.json
-  - spec
-  - tmp
+defaults:
+  - scope:
+      path: ""
+      type: concerts
+    values:
+      layout: concert
+      breadcrumb: concerts
+      image:
+       background:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      breadcrumb: posts 
