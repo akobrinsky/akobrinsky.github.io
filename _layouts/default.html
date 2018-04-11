@@ -146,6 +146,7 @@
         var _this = this;
         $(this.oldContainer).fadeOut(500).promise().done(() => {
           nc.css('visibility','visible');
+          nc.scrollTop();
           nc.fadeIn(500, function(){
             _this.done();
           })
