@@ -57,8 +57,7 @@ html {
   width: device-width; }
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
-  display: block;
-  width: 100%; }
+  display: block; }
 
 body {
   margin: 0;
@@ -148,7 +147,7 @@ a {
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; 
-  transition: color 0.25s ease-in-out; }
+transition: color 0.25s ease-in-out; }
   a:hover {
     color: #e16969;
     text-decoration: underline; }
@@ -6189,7 +6188,4 @@ p {
 }
 #barba-wrapper {
   margin-bottom: 42px;
-}
-#who {
-  background: white;
 }
