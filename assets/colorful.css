@@ -146,7 +146,8 @@ a {
   color: #aaa;
   text-decoration: none;
   background-color: transparent;
-  -webkit-text-decoration-skip: objects; }
+  -webkit-text-decoration-skip: objects; 
+transition: color 0.25s ease-in-out; }
   a:hover {
     color: #e16969;
     text-decoration: underline; }
