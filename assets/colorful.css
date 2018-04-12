@@ -6103,7 +6103,7 @@ a.text-dark:hover, a.text-dark:focus {
 .bg-dark {
   color: #fff; }
 html, body {
-  height: 100%;
+  height: 100vh;
 }
 .navbar {
   opacity: 1;
