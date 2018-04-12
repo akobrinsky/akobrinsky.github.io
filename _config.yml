@@ -22,7 +22,6 @@ url: "http://aryehkobrinsky.com" # the base hostname & protocol for your site, e
 twitter_username: shmaryeh
 github_username:  jekyll
 
-<<<<<<< 2179f08447048e341d787b5305fecef5891cff33
 # Build settings
 markdown: kramdown
 theme: minima
