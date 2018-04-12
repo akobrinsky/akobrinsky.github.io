@@ -5,7 +5,7 @@ description: solo east-coast mini tour
 tags: [shows]
 comments: true
 ---
-![SOLO SHMOLO](/images/soloshmolo.jpg){: class="img-fluid"}
+![SOLO SHMOLO](/images/soloshmolo.jpg)
 
 Proud to announce SOLO SHMOLO 2017! Really excited about this mini-tour I'm doing end of the month. I'll be playing a solo set then playing with friends or listening to friends at these places:
 

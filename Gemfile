@@ -20,10 +20,7 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-<<<<<<< 2179f08447048e341d787b5305fecef5891cff33
-=======
   gem "jekyll-paginate"
->>>>>>> ups
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
