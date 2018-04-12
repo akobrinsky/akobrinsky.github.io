@@ -22,11 +22,31 @@ url: "http://aryehkobrinsky.com" # the base hostname & protocol for your site, e
 twitter_username: shmaryeh
 github_username:  jekyll
 
+<<<<<<< 2179f08447048e341d787b5305fecef5891cff33
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+=======
+paginate_path: "/posts/page:num/"
+paginate: 5
+
+# Build settings
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+>>>>>>> ups
 owner:
   name:           Aryeh Kobrinsky
   avatar:         avatar.jpg

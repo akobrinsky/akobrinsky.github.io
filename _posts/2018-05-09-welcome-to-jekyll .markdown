@@ -1,9 +1,5 @@
 ---
-<<<<<<< 2179f08447048e341d787b5305fecef5891cff33
-layout: post
-=======
 layout: page
->>>>>>> ups
 title:  "Welcome to Jekyll!"
 date:   2018-04-07 13:53:31 -0400
 categories: jekyll update
