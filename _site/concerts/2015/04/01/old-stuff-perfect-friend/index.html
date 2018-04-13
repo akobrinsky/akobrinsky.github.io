@@ -168,7 +168,7 @@
             <a class="nav-link" href="http://localhost:4000/audio">Listen</a>
           </li>
         </ul>
-        <a class="btn navbar-btn" href="#contact">Contact</a>
+        <a class="btn navbar-btn" href="/contact">Contact</a>
       </div>
     </div>
   </nav><div class="py-5 filter-dark cover text-center bg-fixed headerimg" id="mission" >
@@ -274,23 +274,15 @@ Perfect Friend is a new collaborative quartet comprised of some of Brooklyn’s 
   </div>
     </div>
     </div>
-    <!-- Bootstrap core JavaScript -->
 <script src="http://localhost:4000/vendor/jquery/jquery.min.js"></script>
 <script src="http://localhost:4000/assets/js/barba.min.js"></script>
 <script src="http://localhost:4000/vendor/bootstrap/js/bootstrap.bundle.min.js""></script>
-
-<!-- Plugin JavaScript -->
 <script src="http://localhost:4000/vendor/jquery-easing/jquery.easing.min.js"></script>
-
-<!-- Custom scripts for this template -->
 <script src="http://localhost:4000/assets/js/new-age.min.js"></script>
 <script src="http://localhost:4000/assets/js/smooth-scroll.js"></script>
 <script src="http://localhost:4000/assets/js/soundmanager2-jsmin.js"></script>
 <script src="http://localhost:4000/assets/js/bar-ui.js"></script>
 <script src="http://localhost:4000/assets/js/inlineplayer.js"></script>
-
-<!-- <script src="/assets/js/navbar-ontop.js"></script>
- -->
 <script>
   $().ready(function() {
     var transEffect = Barba.BaseTransition.extend({
@@ -300,10 +292,10 @@ Perfect Friend is a new collaborative quartet comprised of some of Brooklyn’s 
       fadeInNewcontent: function(nc) {
         nc.hide();
         var _this = this;
-        $(this.oldContainer).fadeOut(500).promise().done(() => {
+        $(this.oldContainer).fadeOut(750).promise().done(() => {
           nc.css('visibility','visible');
           nc.scrollTop();
-          nc.fadeIn(500, function(){
+          nc.fadeIn(250, function(){
             _this.done();
           })
         });
