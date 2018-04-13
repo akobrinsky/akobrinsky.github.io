@@ -1,5 +1,5 @@
 ---
-layout: post-index
+layout: page
 title: Concerts
 description: "Aryeh Kobrinsky upcoming concerts"
 permalink: /concerts/
