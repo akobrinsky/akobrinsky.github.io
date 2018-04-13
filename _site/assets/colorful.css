@@ -6107,9 +6107,7 @@ a.text-dark:hover, a.text-dark:focus {
 .bg-lightish {
   background: #eaeaea;
 }
-html, body {
-  height: 100vh;
-}
+
 .navbar {
   opacity: 1;
   transition: opacity .5s ease-out; }
