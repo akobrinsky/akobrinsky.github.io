@@ -2,11 +2,7 @@
 title: Hush Point at Cornelia St Cafe Night Two
 description: Hush Point plays Cornelia St Cafe Nov 26, 2016
 time: 9pm and 10:30pm
-image: 
- feature: hushpoint-locksmith.jpg
- background: bg10.png
- credit: Zachariah Kobrinsky
- creditlink: http://zachariahkobrinsky.com
+bgimage: hushpoint-locksmith.jpg
 ---
 John McNeil - trumpet  
 Jeremy Udden - saxophone  
