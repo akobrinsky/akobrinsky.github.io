@@ -20,52 +20,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aryehkobrinsky.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shmaryeh
-github_username:  jekyll
+github_username:  akobrinsky
 
 paginate_path: "/posts/page:num/"
 paginate: 5
 
-# Build settings
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
-markdown: kramdown
-highlighter: rouge
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-owner:
-  name:           Aryeh Kobrinsky
-  avatar:         avatar.jpg
-  bio:            "Bassist, composer, educator living in New York"
-  email:          aryeh.kobrinsky@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: aryehkobrinsky     
-  facebook: shmaryeh    
-  github:         
-  stackexchange:  
-  linkedin:       
-  instagram: akobrinsky
-  flickr:         
-  tumblr:         
-  # google plus id, include the '+', eg +mmistakes
-  google_plus: 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 collections:
  posts:
   output: true
@@ -94,3 +53,59 @@ defaults:
     values:
       layout: post
       breadcrumb: posts 
+
+owner:
+  name:           Aryeh Kobrinsky
+  avatar:         avatar.jpg
+  bio:            "Bassist, composer, educator living in New York"
+  email:          aryeh.kobrinsky@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: aryehkobrinsky     
+  facebook: shmaryeh    
+  github:         
+  stackexchange:  
+  linkedin:       
+  instagram: akobrinsky
+  flickr:         
+  tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  google_plus: 
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude: 
+  - "*.less"
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - Gemfile
+  - Gruntfile.js
+  - LICENSE
+  - README
+  - Rakefile
+  - config
+  - gulpfile.js
+  - lib
+  - log
+  - node_modules
+  - package.json
+  - spec
+  - tmp
