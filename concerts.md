@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: post-index
+title: Concerts
 description: "Aryeh Kobrinsky upcoming concerts"
 permalink: /concerts/
 ---
-<article>
+<article class="bg-white p-4 mb-3 rounded">
 <h2>Upcoming</h2>
 {% assign curDate = site.time | date: '%s' %}
 <ul class="list-unstyled">
@@ -15,7 +16,7 @@ permalink: /concerts/
 {% endfor %}
 </ul>
 </article>
-<article>
+<article class="bg-white p-4 m-0 rounded">
 <h2>Past</h2>
 {% assign curDate = site.time | date: '%s' %}
 <ul class="list-unstyled">

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Aryeh Kobrinsky</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/assets/colorful.scss" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="/vendor/bar-ui.css">
+    <link rel="stylesheet" href="/vendor/inlineplayer.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+
+    <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="/assets/colorful.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Aryeh Kobrinsky" /></head>
+
+<body id="page-top">
+<div class="sm2-bar-ui flat full-width fixed d-none d-xl-inline">
+
+ <div class="bd sm2-main-controls">
+
+  <div class="sm2-inline-texture"></div>
+  <div class="sm2-inline-gradient"></div>
+
+  <div class="sm2-inline-element sm2-button-element">
+   <div class="sm2-button-bd">
+    <a href="#play" class="sm2-inline-button sm2-icon-play-pause">Play / pause</a>
+   </div>
+  </div>
+
+  <div class="sm2-inline-element sm2-inline-status">
+
+   <div class="sm2-playlist">
+    <div class="sm2-playlist-target">
+     <!-- playlist <ul> + <li> markup will be injected here -->
+     <!-- if you want default / non-JS content, you can put that here. -->
+     <noscript><p>JavaScript is required.</p></noscript>
+    </div>
+   </div>
+
+   <div class="sm2-progress">
+    <div class="sm2-row">
+    <div class="sm2-inline-time">0:00</div>
+     <div class="sm2-progress-bd">
+      <div class="sm2-progress-track">
+       <div class="sm2-progress-bar"></div>
+       <div class="sm2-progress-ball"><div class="icon-overlay"></div></div>
+      </div>
+     </div>
+     <div class="sm2-inline-duration">0:00</div>
+    </div>
+   </div>
+  </div>
+
+  <div class="sm2-inline-element sm2-button-element">
+   <div class="sm2-button-bd">
+    <a href="#prev" title="Previous" class="sm2-inline-button sm2-icon-previous">&lt; previous</a>
+   </div>
+  </div>
+
+  <div class="sm2-inline-element sm2-button-element">
+   <div class="sm2-button-bd">
+    <a href="#next" title="Next" class="sm2-inline-button sm2-icon-next">&gt; next</a>
+   </div>
+  </div>
+
+<!--   <div class="sm2-inline-element sm2-button-element">
+   <div class="sm2-button-bd">
+    <a href="#repeat" title="Repeat playlist" class="sm2-inline-button sm2-icon-repeat">&infin; repeat</a>
+   </div>
+  </div> -->
+
+  <!-- not implemented -->
+  <!--
+  <div class="sm2-inline-element sm2-button-element disabled">
+   <div class="sm2-button-bd">
+    <a href="#shuffle" title="Shuffle" class="sm2-inline-button sm2-icon-shuffle">shuffle</a>
+   </div>
+  </div>
+  -->
+<!-- 
+  <div class="sm2-inline-element sm2-button-element sm2-menu">
+   <div class="sm2-button-bd">
+    <a href="#menu" class="sm2-inline-button sm2-icon-menu">menu</a>
+   </div>
+  </div> -->
+
+ </div>
+
+ <div class="bd sm2-playlist-drawer sm2-element">
+
+  <div class="sm2-inline-texture">
+   <div class="sm2-box-shadow"></div>
+  </div>
+
+  <!-- playlist content is mirrored here -->
+
+  <div class="sm2-playlist-wrapper">
+
+    <ul class="sm2-playlist-bd">
+
+     <!-- item with "download" link -->
+<!--      <li>
+      <div class="sm2-row">
+       <div class="sm2-col sm2-wide">
+        <a href="http://localhost:4000/"><b>SonReal</b> - LA<span class="label">Explicit</span></a>
+       </div>
+       <div class="sm2-col">
+        <a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20LA%20%28Prod%20Chin%20Injetti%29.mp3" target="_blank" title="Download &quot;LA&quot;" class="sm2-icon sm2-music sm2-exclude">Download this track</a>
+       </div>
+      </div>
+     </li> -->
+
+<li><a href="http://localhost:4000//audio/files/andy.mp3"><b>Brinsk</b> - Andy</a></li>
+
+<li><a href="http://localhost:4000//audio/files/grounds-for-divorce.mp3"><b>Hush Point</b> - Grounds for Divorce</a></li>
+
+<li><a href="http://localhost:4000//audio/files/clinch-not.mp3"><b>New Old Timers</b> - Clinch Mountain Backstep</a></li>
+
+<li><a href="http://localhost:4000//audio/files/scuffle.mp3"><b>Hush Point</b> - Scuffle</a></li>
+
+<li><a href="http://localhost:4000//audio/files/soul.mp3"><b>Brinsk</b> - Soul Devoured</a></li>
+
+     <!-- standard one-line items -->
+    </ul>
+
+  </div>
+
+ </div>
+</div>
+      <div id="barba-wrapper">
+    <div class="barba-container">    <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand d-none d-sm-inline" href="http://localhost:4000"><b>Aryeh Kobrinsky</b></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-end" id="navbar3SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item d-lg-none">
+            <a class="nav-link" href="http://localhost:4000">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4000/bio">Bio</a>
+          </li>
+          <li class="nav-item mx-2 mb-2 my-md-0">
+            <a class="nav-link" href="http://localhost:4000/concerts">Concerts</a>
+          </li>
+                    <li class="nav-item mx-2 mb-2 my-md-0">
+            <a class="nav-link" href="http://localhost:4000/images">Images</a>
+          </li>
+          <li class="nav-item mx-2 mb-2 my-md-0">
+            <a class="nav-link" href="http://localhost:4000/audio">Listen</a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav><div class="py-5 filter-dark cover text-center bg-fixed headerimg" id="mission" >
+  <div class="container my-auto">
+    <div class="row">
+      <div class="col-md-12 text-white">
+              <h1 class="entry-title">contact</h1>
+        
+        
+      </div>
+    </div>
+  </div>
+</div><div class="bg-lightish">
+  <div class="container my-auto">
+    <div class="row">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="http://localhost:4000">Home</a></li>
+          
+        </ol>
+      </nav>
+    </div>
+  </div>
+</div>  
+<div class="bg-light">
+  <div class="px-4 py-5 container">
+    <div class="row">
+        <article class="p-4 bg-white rounded contact">
+<div class="email-info text-center">
+<h1 class="display-1"><i class="fa fa-envelope"></i></h1>
+</div>
+<h4 class="text-center mb-5 mt-2">Feel free to drop me a line at: <a href="mailto:info@aryehkobrinsky.com" title="email me!">info@aryehkobrinsky.com</a> or by using the form below.</h4>
+
+<form method="POST" action="http://formspree.io/aryeh.kobrinsky@gmail.com">
+  <div class="form-group">
+    <label for="contactEmail">Email address</label>
+    <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" placeholder="Enter email" name="email" />
+    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else... ever...</small>
+  </div>
+  <input type="text" name="_gotcha" style="display:none" />
+  <div class="form-group">
+    <label for="contactSubject">Subject</label>
+    <input type="text" class="form-control" id="contactSubject" placeholder="Subject" name="_subject" />
+  </div>
+  <input type="hidden" name="_next" value="http://localhost:4000/thanks" />
+  <div class="form-group">
+    <label for="contactMessage">Message</label>
+    <textarea class="form-control" id="contactMessage" rows="5" name="message" placeholder="Your message"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" id="sendMessage">Submit</button>
+  </form>
+</article>
+
+    </div>
+  </div>
+</div>
+<div class="text-white bg-dark" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="p-4 col-md-6">
+          <h3><b>akobrinsky</b></h3>
+          <p><span>&copy; 2018 Aryeh Kobrinsky</span></p>
+          <p>Proudly powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a></p>
+          <p class="">
+            <a href="#">aryeh.kobrinsky@gmail.com</a>
+          </p>
+      <ul class="footer-social inline">
+        <li class="list-inline-item">
+          <a href="mailto:aryeh.kobrinsky@gmail.com"><i class="fa fa-fw fa-envelope"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://twitter.com/aryehkobrinsky"><i class="fa fa-fw fa-twitter"></i></a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://facebook.com/shmaryeh"><i class="fa fa-fw fa-facebook"></i></a>
+        </li>
+        
+        
+        
+        
+        <li class="list-inline-item">
+          <a href="https://instagram.com/akobrinsky"><i class="fa fa-fw fa-instagram"></i></a>
+        </li>
+        
+        
+      </ul><!-- /.dl-submenu -->
+
+        </div>
+        <div class="p-4 col-md-6">
+          <h3>Get in touch</h3>
+          <form method="POST" action="http://formspree.io/aryeh.kobrinsky@gmail.com">
+  <div class="form-group">
+    <input type="email" class="form-control form-control-sm" id="contactEmail" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+  </div>
+  <input type="text" name="_gotcha" style="display:none" />
+  <div class="form-group">
+    <input type="text" class="form-control form-control-sm" id="contactSubject" placeholder="Subject" name="_subject">
+  </div>
+  <input type="hidden" name="_next" value="http://localhost:4000/thanks" />
+  <div class="form-group">
+    <textarea class="form-control p-1 form-control-sm" id="contactMessage" rows="5" name="message" placeholder="Your message"></textarea>
+  </div>
+  <button type="submit" class="btn btn-outline-light btn-sm" id="sendMessage">Submit</button>
+  </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+<script src="/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/js/barba.min.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for this template -->
+<script src="/assets/js/new-age.min.js"></script>
+<script src="/assets/js/smooth-scroll.js"></script>
+<script src="/assets/js/soundmanager2-jsmin.js"></script>
+<script src="/assets/js/bar-ui.js"></script>
+<script src="/assets/js/inlineplayer.js"></script>
+
+<!-- <script src="/assets/js/navbar-ontop.js"></script>
+ -->
+<script>
+  $().ready(function() {
+    var transEffect = Barba.BaseTransition.extend({
+      start: function(){
+        this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
+      },
+      fadeInNewcontent: function(nc) {
+        nc.hide();
+        var _this = this;
+        $(this.oldContainer).fadeOut(500).promise().done(() => {
+          nc.css('visibility','visible');
+          nc.scrollTop();
+          nc.fadeIn(500, function(){
+            _this.done();
+          })
+        });
+      }
+    });
+
+    Barba.Pjax.getTransition = function() {
+      return transEffect;
+    }
+    Barba.Pjax.start();
+  });
+</script>
+</body>
+
+</html>

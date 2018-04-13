@@ -1,4 +1,4 @@
-<div class="bg-dark">
+<div class="bg-lightish">
   <div class="container my-auto">
     <div class="row">
       <nav aria-label="breadcrumb">
@@ -7,7 +7,7 @@
           {% if page.path contains '_concerts' %}
           <li class="breadcrumb-item"><a href="{{ site.url }}/concerts">Concerts</a></li>
           {% elsif page.path contains '_posts' %}
-          <li class="breadcrumb-item">Posts</li>
+          <li class="breadcrumb-item"><a href="{{ site.url }}/posts">Posts</a></li>
           {% endif %}
         </ol>
       </nav>

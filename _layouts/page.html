@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="py-5 filter-dark cover text-center bg-fixed mainimg" id="mission" {% if page.bgimage %} style="background: url('{{ site.url }}/assets/img/{{ page.bgimage }}') center center fixed; background-size: cover;" {% endif %}>
+<div class="py-5 filter-dark cover text-center bg-fixed headerimg" id="mission" {% if page.bgimage %} style="background: url('{{ site.url }}/assets/img/{{ page.bgimage }}') center center fixed; background-size: cover;" {% endif %}>
   <div class="container my-auto">
     <div class="row">
       <div class="col-md-12 text-white">
@@ -23,7 +23,7 @@ layout: default
 </div>
 {%- include breadcrumb.html -%}
 <div class="bg-light">
-  <div class="p-4 p-sm-5 container">
+  <div class="px-4 py-5 container">
     <div class="row">
         {{ content }}
     </div>
