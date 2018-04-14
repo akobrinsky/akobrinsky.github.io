@@ -3,21 +3,32 @@ layout: page
 title: Images
 bgimage: plaid-crop.jpg
 ---
-<article>
-<figure class="half">
-	<a href="/images/full/aryehkobrinsky-jump-full.jpg"><img src="/images/medium/aryehkobrinsky-jump.png" alt=""></a>
-	<a href="/images/full/aryehkobrinsky-moose-full.jpg"><img src="/images/medium/aryehkobrinsky-moose.png" alt=""></a>
-</figure>
-<figure>
-	<a href="/images/full/aryehkobrinsky-jump-bass-full.jpg"><img src="/images/medium/aryehkobrinsky-jump-bass.png" alt=""></a>
-</figure>
-<figure class="half">
-	<a href="/images/full/aryehkobrinsky-full.jpg"><img src="/images/medium/aryehkobrinsky.png" alt=""></a>
-	<a href="/images/full/aryehkobrinsky2-full.jpg"><img src="/images/medium/aryehkobrinsky2.png" alt=""></a>
-</figure>
-<div class="center-stuff">
-<a href="/images/aryeh-kobrinsky-press-images.zip"><i class="fa fa-file-zip-o"></i></a>
-<a href="/images/aryeh-kobrinsky-press-images.zip">Click to download zip of all high-res images</a>
-<p>Photo credit: Zachariah Kobrinsky <a href="http://zachariahkobrinsky.com">zachariahkobrinsky.com</a></p>
+<div class="container">
+<div class="row text-center text-lg-left">
+<div class="col-lg-4 col-md-6 mb-3">
+  <a href="#" class="">
+	<a href="/images/full/aryehkobrinsky-jump-full.jpg"><img src="/images/medium/aryehkobrinsky-jump.png" alt="" class="img-fluid img-thumbnail"></a>
+  </a>
 </div>
-</article>
+<div class="col-lg-4 col-md-6 mb-3">
+  <a href="#" class="">
+	<a href="/images/full/aryehkobrinsky-moose-full.jpg"><img src="/images/medium/aryehkobrinsky-moose.png" alt="" class="img-fluid img-thumbnail"></a>
+  </a>
+</div>
+<div class="col-lg-4 col-md-6 mb-3">
+  <a href="#" class="">
+	<a href="/images/full/aryehkobrinsky-jump-bass-full.jpg"><img src="/images/medium/aryehkobrinsky-jump-bass.png" alt="" class="img-fluid img-thumbnail"></a>
+  </a>
+</div>
+<div class="col-lg-4 col-md-6 mb-3">
+  <a href="#" class="">
+	<a href="/images/full/aryehkobrinsky-full.jpg"><img src="/images/medium/aryehkobrinsky.png" alt="" class="img-fluid img-thumbnail"></a>
+  </a>
+</div>
+
+</div>
+<div class="mx-auto text-center justify-content-center">
+<a href="/images/aryeh-kobrinsky-press-images.zip"><i class="fa fa-file-zip-o"></i></a>
+<a href="/images/aryeh-kobrinsky-press-images.zip">Click to download zip of all high-res images</a><p>Photo credit: Zachariah Kobrinsky <a href="http://zachariahkobrinsky.com">zachariahkobrinsky.com</a></p>
+</div>	
+</div>
