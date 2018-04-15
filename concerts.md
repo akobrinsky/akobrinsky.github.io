@@ -1,31 +1,23 @@
 ---
-layout: page
+layout: nopadpage
 title: Concerts
 description: "Aryeh Kobrinsky upcoming concerts"
 permalink: /concerts/
 active: concerts
 ---
-<article class="bg-white p-4 mb-3 rounded">
-<h2>Upcoming</h2>
-{% assign curDate = site.time | date: '%s' %}
-<ul class="list-unstyled">
-  {% for concert in site.concerts %}
-    {% assign postStartDate = concert.date | date: '%s' %}
-    {% if postStartDate >= curDate %}
-        <li class="">{{concert.date | date: "%a %b %d %Y "}}<a href="{{ concert.url }}">{{ concert.title }}</a></li>
-    {% endif %}
-{% endfor %}
-</ul>
-</article>
-<article class="bg-white p-4 m-0 rounded">
-<h2>Past</h2>
-{% assign curDate = site.time | date: '%s' %}
-<ul class="list-unstyled">
-  {% for concert in site.concerts %}
+<div class="table-responsive">
+<table class="table table-striped table-sm">
+  <tbody>
+  {% assign curDate = site.time | date: '%s' %}
+    {% for concert in site.concerts %}
     {% assign postStartDate = concert.date | date: '%s' %}
     {% if postStartDate <= curDate %}
-        <li class="">{{concert.date | date: "%a %b %d %Y "}}<a href="{{ concert.url }}">{{ concert.title }}</a></li>
+    <tr>
+      <td>{{concert.date | date: "%a %b %d %Y "}}</td>
+      <td><a href="{{ concert.url }}">{{ concert.title }}</a></td>
+    </tr>
     {% endif %}
-{% endfor %}
-</ul>
-</article>
+    {% endfor %}
+  </tbody>
+</table>
+</div>
