@@ -3,6 +3,7 @@ layout: page
 title: Concerts
 description: "Aryeh Kobrinsky upcoming concerts"
 permalink: /concerts/
+active: concerts
 ---
 <article class="bg-white p-4 mb-3 rounded">
 <h2>Upcoming</h2>

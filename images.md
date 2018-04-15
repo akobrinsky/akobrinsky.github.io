@@ -1,29 +1,21 @@
 ---
 layout: page
 title: Images
-bgimage: plaid-crop.jpg
+active: images
 ---
 <div class="container">
 <div class="row text-center text-lg-left">
 <div class="col-lg-4 col-md-6 mb-3">
-  <a href="#" class="">
-	<a href="/images/full/aryehkobrinsky-jump-full.jpg"><img src="/images/medium/aryehkobrinsky-jump.png" alt="" class="img-fluid img-thumbnail"></a>
-  </a>
+	<a class="no-barba" href="/images/full/aryehkobrinsky-jump-full.jpg"><img src="/images/medium/aryehkobrinsky-jump.png" alt="" class="img-fluid img-thumbnail"></a>
 </div>
 <div class="col-lg-4 col-md-6 mb-3">
-  <a href="#" class="">
-	<a href="/images/full/aryehkobrinsky-moose-full.jpg"><img src="/images/medium/aryehkobrinsky-moose.png" alt="" class="img-fluid img-thumbnail"></a>
-  </a>
+	<a class="no-barba" href="/images/full/aryehkobrinsky-moose-full.jpg"><img src="/images/medium/aryehkobrinsky-moose.png" alt="" class="img-fluid img-thumbnail"></a>
 </div>
 <div class="col-lg-4 col-md-6 mb-3">
-  <a href="#" class="">
-	<a href="/images/full/aryehkobrinsky-jump-bass-full.jpg"><img src="/images/medium/aryehkobrinsky-jump-bass.png" alt="" class="img-fluid img-thumbnail"></a>
-  </a>
+	<a class="no-barba" href="/images/full/aryehkobrinsky-jump-bass-full.jpg"><img src="/images/medium/aryehkobrinsky-jump-bass.png" alt="" class="img-fluid img-thumbnail"></a>
 </div>
 <div class="col-lg-4 col-md-6 mb-3">
-  <a href="#" class="">
-	<a href="/images/full/aryehkobrinsky-full.jpg"><img src="/images/medium/aryehkobrinsky.png" alt="" class="img-fluid img-thumbnail"></a>
-  </a>
+	<a class="no-barba" href="/images/full/aryehkobrinsky-full.jpg"><img src="/images/medium/aryehkobrinsky.png" alt="" class="img-fluid img-thumbnail"></a>
 </div>
 
 </div>

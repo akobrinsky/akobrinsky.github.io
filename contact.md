@@ -4,6 +4,7 @@ title: contact
 image:
  background: lightbg1.png
 share: false
+active: contact
 ---
 <article class="p-4 bg-white rounded contact">
 <div class="email-info text-center">
@@ -13,18 +14,15 @@ share: false
 
 <form method="POST" action="http://formspree.io/aryeh.kobrinsky@gmail.com">
   <div class="form-group">
-    <label for="contactEmail">Email address</label>
     <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" placeholder="Enter email" name="email">
     <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else... ever...</small>
   </div>
   <input type="text" name="_gotcha" style="display:none" />
   <div class="form-group">
-    <label for="contactSubject">Subject</label>
     <input type="text" class="form-control" id="contactSubject" placeholder="Subject" name="_subject">
   </div>
   <input type="hidden" name="_next" value="{{ site.url }}/thanks" />
   <div class="form-group">
-    <label for="contactMessage">Message</label>
     <textarea class="form-control" id="contactMessage" rows="5" name="message" placeholder="Your message"></textarea>
   </div>
   <button type="submit" class="btn btn-primary" id="sendMessage">Submit</button>

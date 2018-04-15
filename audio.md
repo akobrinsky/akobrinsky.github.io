@@ -5,9 +5,10 @@ description: "A collection of audioclips"
 comments: false
 permalink: /audio/
 bgimage: abstract-2.jpg
+active: listen
 ---
 <article class="bg-white p-4 rounded">
-<ul class="flat">
+<ul class="flat list-unstyled">
  {% for audio in site.audios %}
 <li><a href="{{ site.url }}{{ audio.audiopath }}" class="no-barba">{{ audio.band }} - {{ audio.title }}</a></li>
 {% endfor %}

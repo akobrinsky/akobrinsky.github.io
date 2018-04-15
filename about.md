@@ -1,9 +1,12 @@
 ---
-layout: page
+layout: imgpage
 title: Bio
 bgimage: plaid-crop.jpg
+active: about
 ---
-Born in Fargo, ND Raised in Fargo, ND
+Born in Winnipeg, Manitoba  
+Raised in Fargo, ND
+
 Since 2005, he has quickly established himself as a creative and versatile bassist on the New York jazz scene. Aryeh stands at the vanguard of a new generation of instrumental performers for whom the notion of genre is becoming increasingly ambiguous.
 
 Having toured Europe, North Africa, Canada and the United States Aryeh has performed with a wide variety of artists including Tyshawn Sorey, Hal Crook, Andrew D'Angelo, Matt Wilson, Bob Moses and Dominique Eade.

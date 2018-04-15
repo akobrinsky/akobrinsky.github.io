@@ -144,7 +144,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #aaa;
+  color: #6c6c6c;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; 
@@ -6164,6 +6164,9 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: cover;
   background-attachment: fixed;
 }
+.pageheader {
+margin-top: 64px  ;
+}
 .headerimg {
   height: 400px;
 }
@@ -6211,4 +6214,53 @@ p {
 .highlighter-rouge .highlight {
   padding: 5px;
   margin: 0;
+}
+ul.flat li,
+ul.graphic li {
+ padding-bottom:1px;
+}
+
+ul.flat li a {
+ display:inline-block;
+ padding:2px 4px 2px 4px;
+}
+
+body #sm2-container object,
+body #sm2-container embed {
+ left:-9999em;
+ top:-9999em;
+}
+
+/* flat CSS example */
+ul.flat a {
+  transition: none;
+}
+ul.flat a.sm2_link {
+ /* default state: "a playable link" */
+ padding-left:4px;
+ padding-right:4px;
+}
+
+ul.flat a.sm2_link:hover {
+ /* default (inactive) hover state */
+color: #6c6c6c;
+}
+
+
+ul.flat a.sm2_playing {
+ /* "now playing" */
+ background-color: #934747  ;
+ color:#fff;
+ text-decoration:none;
+}
+
+ul.flat a.sm2_paused {
+ /* "paused state" */
+ background-color:#000000;
+ color:#fff;
+ text-decoration:none;
+}
+
+ul.flat a.sm2_playing:hover, ul.flat a.sm2_paused:hover {
+  color: white;
 }
