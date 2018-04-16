@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Hush Point Live at Cornelia Video
 description: "Hush Point play Fathers and Sons at Cornelia St Cafe"
 tags: [video]

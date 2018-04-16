@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Zimmerman's Contemporary Bow Technique on Steroids
 description: Zimmerman's Contemporary Bow Technique on Steroids
 tags: [teaching, geekery]

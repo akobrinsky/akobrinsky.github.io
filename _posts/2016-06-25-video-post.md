@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Hush Point Trailer
 description: "Hush Point trailer... check it out!"
 tags: [video]

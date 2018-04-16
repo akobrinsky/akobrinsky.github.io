@@ -1,6 +1,5 @@
 ---
 title: About the new site / using Jekyll
-layout: page
 description: Jekyll as a musician site
 tags: [geekery]
 image:

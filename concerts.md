@@ -5,6 +5,7 @@ description: "Aryeh Kobrinsky upcoming concerts"
 permalink: /concerts/
 active: concerts
 ---
+<div class="col-12 py-4">
 <div class="table-responsive">
 <table class="table table-striped table-sm">
   <tbody>
@@ -20,4 +21,5 @@ active: concerts
     {% endfor %}
   </tbody>
 </table>
+</div>
 </div>

@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Heavenly Banquet Quartet Live in Montreal
 description: Heavenly Banquet Quartet
 tags: [video]

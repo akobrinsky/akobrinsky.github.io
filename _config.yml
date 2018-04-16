@@ -43,7 +43,7 @@ defaults:
       path: ""
       type: concerts
     values:
-      layout: concert
+      layout: postpage
       breadcrumb: concerts
       image:
        background:
@@ -51,7 +51,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: post
+      layout: postpage
       breadcrumb: posts 
 
 owner:
@@ -85,7 +85,6 @@ sass:
   sass_dir: _sass
   style: compressed
 
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate

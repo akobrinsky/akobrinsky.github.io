@@ -58,8 +58,7 @@ html {
 
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
-  width: 100%; }
-
+}
 body {
   margin: 0;
   font-family: Quattrocento;
@@ -3152,7 +3151,7 @@ tbody.collapse.show {
   padding: 0.75rem 1rem;
   margin-bottom: 0;
   list-style: none;
-  background-color: #eaeaea;
+  background-color: #1e1e1e;
   border-radius: 0px; }
 
 .breadcrumb-item + .breadcrumb-item::before {
@@ -4188,7 +4187,9 @@ button.bg-light:focus {
 
 .bg-dark {
   background-color: #151515 !important; }
-
+.bg-gray {
+    background-color: #3b3b3b !important; }
+}
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
@@ -6105,7 +6106,7 @@ a.text-dark:hover, a.text-dark:focus {
 .bg-dark {
   color: #fff; }
 .bg-lightish {
-  background: #eaeaea;
+  background: #1e1e1e;
 }
 
 .navbar {
@@ -6269,4 +6270,11 @@ ul.flat a.sm2_paused {
 
 ul.flat a.sm2_playing:hover, ul.flat a.sm2_paused:hover {
   color: white;
+}
+.maincontent img {
+  max-width: 100%;
+  height: auto; 
+}
+.dropshadow {
+  box-shadow: 0 2px 4px #c9c9c9;
 }

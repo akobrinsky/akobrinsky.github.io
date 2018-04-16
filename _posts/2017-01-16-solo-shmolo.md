@@ -1,5 +1,4 @@
 ---
-layout: page
 title: SOLO SHMOLO 2017
 description: solo east-coast mini tour
 tags: [shows]
