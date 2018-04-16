@@ -6164,6 +6164,12 @@ a.text-dark:hover, a.text-dark:focus {
   background-size: cover;
   background-attachment: fixed;
 }
+.thirdimg {
+  background: url('/assets/img/jump-wide.jpg') center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+}
 .pageheader {
 margin-top: 64px  ;
 }

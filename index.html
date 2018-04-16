@@ -87,7 +87,27 @@ layout: default
       </div>
     </div>
   </div>
-  <div class="py-5 text-center" id="who">
+    <div class="py-5 filter-dark cover bg-fixed thirdimg" id="mission">
+  <div class="container my-auto">
+    <div class="row">
+      <div class="p-4 col-md-6">
+                <h3>Get emails</h3>
+                <form method="POST" action="http://formspree.io/aryeh.kobrinsky@gmail.com">
+        <div class="form-group">
+          <input type="email" class="form-control form-control-sm" id="contactEmail" aria-describedby="emailHelp" placeholder="Enter email" name="email">
+        </div>
+        <input type="text" name="_gotcha" style="display:none" />
+        <div class="form-group">
+          <input type="text" class="form-control form-control-sm" id="contactName" placeholder="Name" name="_name">
+        </div>
+        <input type="hidden" name="_next" value="{{ site.url }}/thanks" />  
+        <button type="submit" class="btn btn-outline-light btn-sm" id="sendMessage">Submit</button>
+        </form>
+              </div>
+    </div>
+  </div>
+  </div>
+  <div class="py-5 text-center bg-white" id="Projects">
     <div class="container">
       <div class="row">
         <div class="col-md-12"> </div>
@@ -154,6 +174,7 @@ layout: default
       </div>
     </div>
   </div>
+
   <div class="modal fade yellow">
     <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
