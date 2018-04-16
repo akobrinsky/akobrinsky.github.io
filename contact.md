@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: postpage
 title: contact
 image:
  background: lightbg1.png
