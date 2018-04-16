@@ -2,9 +2,7 @@
 title: About the new site / using Jekyll
 description: Jekyll as a musician site
 tags: [geekery]
-image:
- feature: octojekyll.jpg
- background: bg7.png
+bgimage: octojekyll.jpg
 ---
 ## What is Jekyll and why am I using it?
 

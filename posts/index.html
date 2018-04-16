@@ -11,9 +11,9 @@ active: posts
 {% for post in paginator.posts %}
 <article class="hentry my-4 rounded bg-white col-12 col-md-10 ml-auto mr-auto dropshadow">
   <header>
-    {% if post.image.feature %}
+    {% if post.bgimage %}
       <div class="entry-image-index">
-        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.feature }}" alt="{{ post.title }}" class="img-fluid"></a>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.bgimage }}" alt="{{ post.title }}" class="img-fluid"></a>
       </div><!-- /.entry-image -->
     {% endif %}
     <div class="entry-info px-0 px-sm-4 pt-4">
