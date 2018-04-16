@@ -6165,7 +6165,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-attachment: fixed;
 }
 .thirdimg {
-  background: url('/assets/img/jump-wide.jpg') center center;
+  background: url('/assets/img/jump-wide.jpg') center 30px;
   background-size: cover;
   background-attachment: fixed;
   height: 400px;
