@@ -4262,26 +4262,26 @@ button.bg-dark:focus {
   border-radius: 0.5rem !important; }
 
 .rounded-top {
-  border-top-left-radius: 0px !important;
-  border-top-right-radius: 0px !important; }
+  border-top-left-radius: 0.5rem !important;
+  border-top-right-radius: 0.5rem !important; }
 
 .rounded-right {
   border-top-right-radius: 0px !important;
   border-bottom-right-radius: 0px !important; }
 
 .rounded-bottom {
-  border-bottom-right-radius: 0px !important;
-  border-bottom-left-radius: 0px !important; }
+  border-bottom-right-radius: 0.5rem !important;
+  border-bottom-left-radius: 0.5rem !important; }
 
 .rounded-left {
-  border-top-left-radius: 0px !important;
-  border-bottom-left-radius: 0px !important; }
+  border-top-left-radius: 0.5rem !important;
+  border-bottom-left-radius: 0.5rem !important; }
 
 .rounded-circle {
   border-radius: 50% !important; }
 
 .rounded-0 {
-  border-radius: 0 !important; }
+  border-radius: 0.5rem !important; }
 
 .clearfix::after {
   display: block;
