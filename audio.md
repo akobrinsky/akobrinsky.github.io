@@ -4,11 +4,10 @@ title: Listen
 description: "A collection of audioclips"
 comments: false
 permalink: /audio/
-bgimage: abstract-2.jpg
 active: listen
 ---
 <div class="row">
-<div class="my-3 col-12 py-4 bg-white rounded">
+<div class="col-12 py-4 bg-gray">
 <article class="	">
 <ul class="flat list-unstyled m-0">
  {% for audio in site.audios %}
