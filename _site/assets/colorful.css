@@ -6175,7 +6175,11 @@ a.text-dark:hover, a.text-dark:focus {
 margin-top: 64px  ;
 }
 .headerimg {
-  height: 400px;
+  min-height: 400px;
+  margin-top: 4rem;
+}
+.noheaderimg {
+  margin-top: 4rem;
 }
 .footer-social {
   padding: 0;

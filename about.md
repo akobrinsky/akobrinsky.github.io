@@ -1,7 +1,7 @@
 ---
 layout: imgpage
-title: Bio
-bgimage: plaid-crop.jpg
+title: About
+bgimage: aryeh-plaid-man.jpg
 active: about
 ---
 Born in Winnipeg, Manitoba  
