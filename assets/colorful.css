@@ -6155,18 +6155,18 @@ a.text-dark:hover, a.text-dark:focus {
 #barba-wrapper {
 }
 .mainimg {
-  background: url('/assets/img/pugshirt-wide.jpg') center center;
+  background: url('/images/pugshirt-wide.jpg') center center;
   background-size: cover;
   background-attachment: fixed;
   height: 615px;
 }
 .secondimg {
-  background: url('/assets/img/aryeh-plaid-man.jpg') center center;
+  background: url('/images/aryeh-plaid-man.jpg') center center;
   background-size: cover;
   background-attachment: fixed;
 }
 .thirdimg {
-  background: url('/assets/img/jump-wide.jpg') center 30px no-repeat;
+  background: url('/images/jump-wide.jpg') center 30px no-repeat;
   background-size: cover;
   background-attachment: fixed;
   height: 400px;
