@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="">
     <meta name="author" content="">
-
-    <title>{{ site.title }}</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="{{ site.url }}/assets/colorful.scss" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
+    <meta name="twitter:title" content="{% if page.title %} {{ site.title }} - {{ page.title }} {% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
+    <meta name="google-site-verification" content="zStwYJtxl8IWOvgIroXlb8HRCVgXaxPJ7Nxvwn9j2dk" /><!-- Open Graph -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <title>{% if page.title %} {{ site.title }} - {{ page.title }} {% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ site.url }}/vendor/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ site.url }}/vendor/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="{{ site.url }}/vendor/bar-ui.css">
@@ -20,11 +24,15 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-
-    <!-- Plugin CSS -->
-
-    <!-- Custom styles for this template -->
-  <link rel="stylesheet" href="{{ site.url }}/assets/colorful.css">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.url }}/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.url }}/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ site.url }}/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.url }}/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ site.url }}/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.url }}/images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="{{ site.url }}/assets/colorful.css">
   {%- feed_meta -%}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}

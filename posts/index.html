@@ -7,7 +7,7 @@ comments: false
 active: posts
 ---
 
-<div class="row">
+<div class="row m-0">
 {% for post in paginator.posts %}
 <article class="p-0 hentry my-4 rounded bg-white col-12 col-md-10 ml-auto mr-auto dropshadow">
   <header>
@@ -16,7 +16,7 @@ active: posts
         <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.bgimage }}" alt="{{ post.title }}" class="img-fluid rounded-top"></a>
       </div><!-- /.entry-image -->
     {% endif %}
-    <div class="entry-info px-0 px-sm-4 pt-4">
+    <div class="entry-info px-2 px-sm-4 pt-4">
     <div class="entry-meta">
       <span class="entry-date date published updated"><time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">{{ post.date | date: "%B %d, %Y" }}</a></time></span>
     </div><!-- /.entry-meta -->
@@ -27,7 +27,7 @@ active: posts
       </div>  
     {% endif %}
   </header>
-  <div class="entry-content px-0 px-sm-4 pt-2 pb-4">
+  <div class="entry-content px-2 px-sm-4 pt-2 pb-4">
     {{ post.content }}
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->

@@ -308,7 +308,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.75rem;
   font-family: Raleway;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.25;
   color: inherit; }
 
 h1, .h1 {
@@ -6300,4 +6300,11 @@ ul.flat a.sm2_playing:hover, ul.flat a.sm2_paused:hover {
   margin: auto;
   min-width: 50%;
   min-height: 400px;
+}
+@media (max-width: 575.98px) {
+  h1, h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 1.25;
+  }
 }
