@@ -7,10 +7,10 @@ permalink: /thanks/
     <div class="row">
       <div class="mx-auto col-lg-8 col-md-10">
 
-  <h1>404</h1>
-  <h1 class="giant-icon m-0"><i class="fa fa-frown-o" aria-hidden="true"></i></h1>
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+  <h1>Thanks!</h1>
+  <h3><strong>You have been added to the mailing list</strong></h3>
+    <h1 class="giant-icon m-0"><i class="fa fa-thumbs-up" aria-hidden="true"></i></h1>
+
       </div>
     </div>
   </div>
