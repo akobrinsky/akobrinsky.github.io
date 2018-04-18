@@ -1,8 +1,6 @@
 ---
 layout: postpage
-title: contact
-image:
- background: lightbg1.png
+title: Contact
 share: false
 active: contact
 ---
