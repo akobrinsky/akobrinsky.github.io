@@ -17,7 +17,7 @@ active: concerts
     {% if postStartDate <= curDate %}
     <tr>
       <td nowrap>{{item.date | date: "%a %b %d %Y "}}</td>
-      <td nowrap><a href="{{ concert.url }}">{{ item.title }}</a></td>
+      <td nowrap><a href="{{ item.url }}">{{ item.title }}</a></td>
     </tr>
     {% endif %}
     {% endfor %}
