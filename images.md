@@ -27,3 +27,4 @@ active: images
 <a href="/images/aryeh-kobrinsky-press-images.zip">Click to download zip of all high-res images</a><p>Photo credit: Zachariah Kobrinsky <a href="http://zachariahkobrinsky.com">zachariahkobrinsky.com</a></p>
 </div>
 </div>
+
