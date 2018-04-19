@@ -1,5 +1,5 @@
 ---
-layout: imgpage
+layout: darkbg
 title: About
 bgimage: aryeh-plaid-man.jpg
 active: about
