@@ -24,7 +24,7 @@ active: images
 </div>
 <div class="mx-auto text-center justify-content-center">
 <a href="/images/aryeh-kobrinsky-press-images.zip"><i class="fa fa-file-zip-o"></i></a>
-<a href="/images/aryeh-kobrinsky-press-images.zip">Click to download zip of all high-res images</a><p>Photo credit: Zachariah Kobrinsky <a href="http://zachariahkobrinsky.com">zachariahkobrinsky.com</a></p>
+<a href="/images/aryeh-kobrinsky-press-images.zip" target="_blank">Click to download zip of all high-res images</a><p>Photo credit: Zachariah Kobrinsky <a href="http://zachariahkobrinsky.com" target="_blank">zachariahkobrinsky.com</a></p>
 </div>
 </div>
 
