@@ -1,5 +1,5 @@
 ---
-layout: postpage
+layout: darkbg
 title: Contact
 share: false
 active: contact
