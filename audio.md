@@ -7,6 +7,7 @@ permalink: /audio/
 active: listen
 ---
 <div class="row">
+<div class="col-12 py-4 bg-white">
 <article class="	">
 <ul class="flat list-unstyled m-0">
  {% for audio in site.audios %}
@@ -14,4 +15,5 @@ active: listen
 {% endfor %}
 </ul>
 </article>
+</div>
 </div>

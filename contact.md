@@ -5,6 +5,7 @@ share: false
 active: contact
 ---
 <div class="row">
+<div class="col-12 bg-white my-4 rounded p-4">
 <div class="email-info text-center">
 <h1 class="display-1"><i class="fa fa-envelope"></i></h1>
 </div>
@@ -25,4 +26,5 @@ active: contact
   </div>
   <button type="submit" class="btn btn-primary" id="sendMessage">Submit</button>
   </form>
+</div>
 </div>
