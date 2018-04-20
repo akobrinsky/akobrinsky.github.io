@@ -6323,3 +6323,12 @@ ul.flat a.sm2_playing:hover, ul.flat a.sm2_paused:hover {
 #hithere {
   text-decoration: none;
 }
+.maincontent a, .entry-content a {
+  text-decoration: underline;
+}
+.entry-title a {
+  color: #c63434;
+}
+.entry-title a:hover {
+  color: #ec4141;
+}
