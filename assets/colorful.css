@@ -6234,6 +6234,7 @@ ul.graphic li {
 ul.flat li a {
  display:inline-block;
  padding:2px 4px 2px 4px;
+ text-decoration: none;
 }
 
 body #sm2-container object,
