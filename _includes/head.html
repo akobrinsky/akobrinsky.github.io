@@ -12,10 +12,19 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:image" content="{% if page.mainimg %}{{ site.url }}/images/{{ page.mainimg }}{% else %}{{ site.url }}/images/fb-aryeh.jpg{% endif %}">
+    <meta property="og:image" content="{% if page.bgimage %}{{ site.url }}/images/{{ page.bgimage }}{% else %}{{ site.url }}/images/fb-aryeh.jpg{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91348626-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-91348626-1');
+</script>
     <title>{% if page.title %} {{ site.title }} - {{ page.title }} {% else %}{{ site.title }}{% endif %}</title>
     <link rel="stylesheet" href="{{ site.url }}/vendor/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="{{ site.url }}/vendor/simple-line-icons/css/simple-line-icons.css">
@@ -33,6 +42,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ site.url }}/images/apple-touch-icon-152x152.png" />
     <link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="{{ site.url }}/images/favicon-16x16.png" sizes="16x16" />
-    <link rel="stylesheet" href="{{ site.url }}/assets/colorful.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/colorful.css"
   </head>
 
