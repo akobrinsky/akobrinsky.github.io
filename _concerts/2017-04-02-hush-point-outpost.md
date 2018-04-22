@@ -1,7 +1,7 @@
 ---
 title: Hush Point at Outpost 186 Cambridge
 time: 8pm
-bgimage: hushpoint-locksmith.jpg
+mainimg: hushpoint-locksmith.jpg
 ---
 **Hush Point**  
 John Mcneil - trumpet  

@@ -2,7 +2,7 @@
 title: Hush Point at Cornelia St Cafe
 description: Hush Point plays Cornelia St Cafe July 29, 2016
 time: 9pm and 10:30pm
-bgimage: hushpoint-color.jpg
+mainimg: hushpoint-color.jpg
 ---
 John McNeil - trumpet  
 Jeremy Udden - saxophone  

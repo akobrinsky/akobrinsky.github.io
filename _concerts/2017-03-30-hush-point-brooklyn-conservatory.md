@@ -1,7 +1,7 @@
 ---
 title: Hush Point at Brooklyn Conservatory of Music
 time: 8pm
-bgimage: moose-landscape-full.jpg
+mainimg: moose-landscape-full.jpg
 ---
 **Hush Point** celebrates their third Sunnyside Records release, Hush Point III, in the intimate Brooklyn Conservatory of Music concert hall.
 
