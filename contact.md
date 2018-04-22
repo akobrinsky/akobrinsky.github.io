@@ -9,7 +9,7 @@ active: contact
 <div class="email-info text-center">
 <h1 class="display-1"><i class="fa fa-envelope"></i></h1>
 </div>
-<h4 class="text-center mb-5 mt-2">Feel free to drop me a line at: <a href="mailto:info@aryehkobrinsky.com" title="email me!">info@aryehkobrinsky.com</a> or by using the form below.</h4>
+<h4 class="text-center mb-5 mt-2 mailinfo">Feel free to drop me a line at: <a href="mailto:info@aryehkobrinsky.com" title="email me!">info@aryehkobrinsky.com</a> or by using the form below.</h4>
 
 <form method="POST" action="http://formspree.io/aryeh.kobrinsky@gmail.com">
   <div class="form-group">
