@@ -13,7 +13,7 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Hush Point at Cornelia St Cafe Night Two">
-    <meta property="og:image" content="http://localhost:4000/images/hushpoint-locksmith.jpg">
+    <meta property="og:image" content="http://localhost:4000/images/fb-aryeh.jpg">
     <meta property="og:description" content="Hush Point plays Cornelia St Cafe Nov 26, 2016">
     <meta property="og:url" content="http://localhost:4000/concerts/2016/11/26/hush-point/">
     <meta property="og:site_name" content="Aryeh Kobrinsky">
@@ -26,7 +26,6 @@
 
   gtag('config', 'UA-91348626-1');
 </script>
-
     <title> Aryeh Kobrinsky - Hush Point at Cornelia St Cafe Night Two </title>
     <link rel="stylesheet" href="http://localhost:4000/vendor/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://localhost:4000/vendor/simple-line-icons/css/simple-line-icons.css">
@@ -44,7 +43,8 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/images/apple-touch-icon-152x152.png" />
     <link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="http://localhost:4000/images/favicon-16x16.png" sizes="16x16" />
-    <link rel="stylesheet" href="http://localhost:4000/assets/colorful.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Aryeh Kobrinsky" /></head>
+    <link rel="stylesheet" href="http://localhost:4000/assets/colorful.css"
+  </head>
 
 <body id="page-top">
 <div class="sm2-bar-ui flat full-width fixed d-none d-xl-inline">
@@ -360,32 +360,8 @@ Anthony Pinciotti - drums</p>
 <script src="http://localhost:4000/assets/js/soundmanager2-jsmin.js"></script>
 <script src="http://localhost:4000/assets/js/bar-ui.js"></script>
 <script src="http://localhost:4000/assets/js/inlineplayer.js"></script>
-<script>
-  $().ready(function() {
-    var transEffect = Barba.BaseTransition.extend({
-      start: function(){
-        this.newContainerLoading.then(val => this.fadeInNewcontent($(this.newContainer)));
-      },
-      fadeInNewcontent: function(nc) {
-        nc.hide();
-        var _this = this;
-        $(this.oldContainer).fadeOut(750).promise().done(() => {
-          nc.css('visibility','visible');
-          nc.scrollTop();
-          nc.fadeIn(250, function(){
-            _this.done();
-          })
-        });
-      }
-    });
+<script src="http://localhost:4000/assets/js/new-age.min.js"></script>
 
-    Barba.Pjax.getTransition = function() {
-      return transEffect;
-    }
-    Barba.Pjax.start();
-  });
-
-</script>
 </body>
 
 </html>
