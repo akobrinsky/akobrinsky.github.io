@@ -1,7 +1,7 @@
 ---
 title: Hush Point in Portland Maine
 time: 8pm
-bgimage: hushpoint-locksmith.jpg
+mainimg: hushpoint-locksmith.jpg
 ---
 **Hush Point** celebrates their third Sunnyside Records release with a 4pm workshop and 8pm concert at Dimensions in Jazz in Portland, Maine. 
 

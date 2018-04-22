@@ -2,7 +2,7 @@
 title: wmarsalistrpt88@aol.com / PERFECT FRIEND at 65Fen
 description: wmarsalistrpt88@aol.com / PERFECT FRIEND at 65Fen
 time: 8:30pm
-bgimage: marsalisfriend.jpg
+mainimg: marsalisfriend.jpg
 ---
 8:30pm - Doors
 

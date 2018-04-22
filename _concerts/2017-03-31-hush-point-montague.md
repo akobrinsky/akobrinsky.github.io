@@ -1,7 +1,7 @@
 ---
 title: Hush Point at Montague Bookmill
 time: 7:30pm
-bgimage: hushpoint-locksmith.jpg
+mainimg: hushpoint-locksmith.jpg
 ---
 Celebrating our third Sunnyside Records release "Hush Point III" with special guest Nathan "Hobbs" Blehar
 
