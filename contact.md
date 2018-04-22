@@ -1,7 +1,8 @@
 ---
 layout: darkbg
 title: Contact
-bgimg: darkbg4.png
+image:
+ background: lightbg1.png
 share: false
 active: contact
 ---

@@ -2,7 +2,7 @@
 title: Kobrarlson Duo at Happy Lucky No 1
 layout: concert
 time: 7pm
-mainimg: dustin-aryeh.jpg
+bgimage: dustin-aryeh.jpg
 ---
 **@ Happy Lucky No 1**
 December 15, 2016 

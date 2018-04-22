@@ -1,7 +1,7 @@
 ---
 title: Hush Point at Cornelia Street Cafe
 time: 8:30pm
-mainimg: hushpoint-locksmith.jpg
+bgimage: hushpoint-locksmith.jpg
 ---
 **Hush Point** has developed a cult following in New York and elsewhere. When alto saxophonist Jeremy Udden and trumpeter John McNeil created the band they didn’t realize the music would result in people creating an actual religion based on Hush Point — its members and music. The quartet's third album, Hush Point III, is being used in many HP Temples as a mediation aid and a replacement for psychotherapy and antidepressants.
 

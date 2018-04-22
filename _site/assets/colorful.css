@@ -6281,7 +6281,7 @@ ul.flat a.sm2_playing:hover, ul.flat a.sm2_paused:hover {
   height: auto; 
 }
 .dropshadow {
-  box-shadow: 0 5px 10px #7a7a7a;
+  box-shadow: 0 2px 4px #c9c9c9;
 }
 .entry-image {
   position: relative;

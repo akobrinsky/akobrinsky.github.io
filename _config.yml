@@ -45,14 +45,14 @@ defaults:
     values:
       layout: postpage
       breadcrumb: concerts
-      bgimg: darkbg18.png
+      image:
+       background:
   - scope:
       path: ""
       type: posts
     values:
       layout: postpage
-      breadcrumb: posts
-      bgimg: darkbg6.png
+      breadcrumb: posts 
 
 owner:
   name:           Aryeh Kobrinsky

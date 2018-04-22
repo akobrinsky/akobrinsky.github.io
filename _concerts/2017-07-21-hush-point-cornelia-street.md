@@ -1,7 +1,7 @@
 ---
 title: Hush Point at Cornelia Street Cafe
 time: 9pm
-mainimg: hushpoint-locksmith.jpg
+bgimage: hushpoint-locksmith.jpg
 ---
 
 **Hush Point**  

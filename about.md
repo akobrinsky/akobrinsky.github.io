@@ -1,8 +1,7 @@
 ---
 layout: darkbg
 title: About
-mainimg: aryeh-plaid-man.jpg
-bgimg: darkbg1.png
+bgimage: aryeh-plaid-man.jpg
 active: about
 ---
 Since moving to New York City in 2005 via Montreal and Fargo, North Dakota, Aryeh Kobrinsky has quickly established himself as a creative and versatile bassist on the New York jazz scene. Aryeh stands at the vanguard of a generation of instrumental performers for whom the notion of genre is becoming increasingly ambiguous. He holds a BMus from McGill University and a MMus from New England Conservatory where he studied with Danilo Perez, George Garzone, Jerry Bergonzi and double bass luminary, Don Palma.
