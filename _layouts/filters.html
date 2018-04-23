@@ -22,12 +22,8 @@ layout: default
   </div>
 </div>
 <div class="bg-dark"{% if page.bgimg %} style="background: url('{{ site.url }}/images/{{ page.bgimg }}') center center fixed;" {% endif %}>
-    <div class="container">
-      <div class="row">
-      <div class="col-12 col-md-10 py-4 ml-auto mr-auto maincontent">
+    <div class="container py-3">
         {{ content }}
-        </div>
-      </div>
     </div>
 </div>
 {%- include footer.html -%}

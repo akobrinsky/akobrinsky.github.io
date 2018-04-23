@@ -6338,3 +6338,30 @@ ul.flat a.sm2_playing:hover, ul.flat a.sm2_paused:hover {
 .mailinfo a {
   text-decoration: none;
 }
+.brinsk-sm2 {
+  color: black;
+}
+.brinsk-sm2:link {
+  text-decoration: none;
+}
+.brinsk-sm2.sm2_playing{
+  color: #ec4141;
+}
+.brinsk-sm2.sm2_paused {
+color: #39c6a8;
+}
+.brinsk-sm2:before {
+  content: "\f04b";
+  font-family: FontAwesome;
+  padding: 0 3px;
+}
+.brinsk-sm2.sm2_playing:before {
+  content: "\f04c";
+  font-family: FontAwesome;
+  padding: 0 3px;
+}
+.brinsk-sm2.sm2_paused:before {
+  content: "\f04b";
+  font-family: FontAwesome;
+  padding: 0 3px;
+}
