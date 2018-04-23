@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="py-2 cover text-center {% if page.mainimg %} headerimg {% else %} noheaderimg{% endif %}" id="mission" {% if page.mainimg %} style="background: url('{{ site.url }}/images/{{ page.mainimg }}') center center / cover;" {% endif %}>
+  <div class="container my-auto">
+    <div class="row">
+      <div class="col-md-12 text-white">
+              <h1 class="header-title">{{ page.title }}</h1>
+        {% if page.date %}
+        <h2 class="big-concert-date">
+          {{page.date | date: "%a %b %d %Y "}}
+        </h2><!-- /.entry-reading-time -->
+        {% endif %}
+        {% if page.time %}
+        <h2 class="big-concert-time">
+          <i class="fa fa-clock-o"></i>
+          {{ page.time }}
+        </h2>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-dark"{% if page.bgimg %} style="background: url('{{ site.url }}/images/{{ page.bgimg }}') center center fixed;" {% endif %}>
+    <div class="container">
+      <div class="row">
+      <div class="col-12 col-md-10 py-4 ml-auto mr-auto maincontent">
+        {{ content }}
+        </div>
+      </div>
+    </div>
+</div>
+{%- include footer.html -%}
