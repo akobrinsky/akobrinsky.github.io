@@ -13,13 +13,13 @@ bgimg: darkbg6.png
       {% if post.tags %}
             <div class="filtr-item p-0 p-md-1 filtered {% if post.mainimg %}col-sm-6{% else %}col-sm-3{% endif %}" data-category="{% if post.tags.size <= 1 %}{{ post.tags }}{% elsif post.tags.size > 1 %}{{ post.tags | sort | join: ", " }}{% endif %}" data-sort="value">
                   
-              <div class="bg-light rounded mb-2">
+              <div class="bg-light rounded">
                 {% if post.mainimg %}
                 <div class="entry-image-index">
                 <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.mainimg }}" alt="{{ post.title }}" class="img-fluid rounded-top"></a>
                 </div><!-- /.entry-image -->
                 {% endif %}
-                <div class="filter-inner px-2 py-3">
+                <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h4>
               
               <time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">  {{ post.date | date: "%B %d, %Y" }}</a></time>  
