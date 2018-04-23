@@ -31,7 +31,7 @@ var options = {
       transform: 'scale(0.5)'
    },
    filterInCss: { // Filtering in animation
-      opacity: 0,
+      opacity: 1,
       transform: 'scale(1)'
    },
    layout: 'packed', // See layouts
