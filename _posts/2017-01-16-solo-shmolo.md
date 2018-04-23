@@ -1,7 +1,7 @@
 ---
 title: SOLO SHMOLO 2017
 description: solo east-coast mini tour
-tags: [shows]
+tags: [shows, solo shmolo]
 comments: true
 ---
 ![SOLO SHMOLO](/images/soloshmolo.jpg){: class="img-fluid"}

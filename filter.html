@@ -1,0 +1,22 @@
+---
+layout: page
+permalink: filter
+---
+<select class="">
+<option data-filter="all">all</option>
+{% for tag in site.tags %}
+    <option data-filter="{{ tag | first }}" value="{{ tag | first }}">{{ tag | first }}</option>
+   <!-- For sorting controls add -->
+{% endfor %}
+</select>
+
+<div class="filtr-container">
+{% for post in site.posts %}
+{% if post.tags %}
+<div class="filtr-item bg-white" data-category="{% if post.tags.size <= 1 %}{{ post.tags }}{% elsif post.tags.size > 1 %}{{ post.tags | sort | join: ", " }}{% endif %}" data-sort="value">
+  <h4 class="filter-title">{{ post.title }}</h4>
+  {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+  </div>
+{% endif %}
+{% endfor %} 
+</div>
