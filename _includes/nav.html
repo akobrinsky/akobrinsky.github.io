@@ -8,17 +8,6 @@
           <li class="nav-item d-lg-none">
             <a class="nav-link" href="{{ site.url }}">Home</a>
           </li>
-<!--  enable when I add projects and stuff         <li class="nav-item dropdown mx-2 mb-2 my-md-0">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                {% if page.active == "about" %}
-                <a class="dropdown-item active" href="{{ site.url }}/about">About</a>
-                {% else %}
-                <a class="dropdown-item" href="{{ site.url }}/about">About</a>
-                {% endif %}          
-                <a class="dropdown-item" href="{{ site.url }}/projects">Projects</a>
-            </div>
-          </li> -->
           <li class="nav-item mx-2 mb-2 my-md-0">
             {% if page.active == "about" %}
             <a class="nav-link active" href="{{ site.url }}/about">About</a>
@@ -33,12 +22,16 @@
             <a class="nav-link" href="{{ site.url }}/concerts">Concerts</a>
             {% endif %}
           </li>
-          <li class="nav-item mx-2 mb-2 my-md-0">
-          {% if page.active == "posts" %}
-            <a class="nav-link active" href="{{ site.url }}/posts">Posts</a>
-            {% else %}
-            <a class="nav-link" href="{{ site.url }}/posts">Posts</a>
-            {% endif %}
+          <li class="nav-item dropdown mx-2 mb-2 my-md-0">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Posts</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                {% if page.active == "posts" %}
+                <a class="dropdown-item active" href="{{ site.url }}/posts">Posts</a>
+                {% else %}
+                <a class="dropdown-item" href="{{ site.url }}/posts">Posts</a>
+                {% endif %}          
+                <a class="no-barba dropdown-item" href="{{ site.url }}/filter">Filtered</a>
+            </div>
           </li>
           <li class="nav-item mx-2 mb-2 my-md-0">
           {% if page.active == "images" %}

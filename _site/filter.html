@@ -169,15 +169,6 @@
           <li class="nav-item d-lg-none">
             <a class="nav-link" href="http://localhost:4000">Home</a>
           </li>
-<!--  enable when I add projects and stuff         <li class="nav-item dropdown mx-2 mb-2 my-md-0">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                
-                <a class="dropdown-item" href="http://localhost:4000/about">About</a>
-                          
-                <a class="dropdown-item" href="http://localhost:4000/projects">Projects</a>
-            </div>
-          </li> -->
           <li class="nav-item mx-2 mb-2 my-md-0">
             
             <a class="nav-link" href="http://localhost:4000/about">About</a>
@@ -188,10 +179,14 @@
             <a class="nav-link" href="http://localhost:4000/concerts">Concerts</a>
             
           </li>
-          <li class="nav-item mx-2 mb-2 my-md-0">
-          
-            <a class="nav-link" href="http://localhost:4000/posts">Posts</a>
-            
+          <li class="nav-item dropdown mx-2 mb-2 my-md-0">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Posts</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                
+                <a class="dropdown-item" href="http://localhost:4000/posts">Posts</a>
+                          
+                <a class="no-barba dropdown-item" href="http://localhost:4000/filter">Filtered</a>
+            </div>
           </li>
           <li class="nav-item mx-2 mb-2 my-md-0">
           
@@ -279,7 +274,7 @@
       <div class="filtr-container container">
       
       
-            <div class="filtr-item p-0 p-md-1 filtered col-sm-6" data-category="recording, trio" data-sort="value">
+            <div class="filtr-item py-1 px-0 p-md-1 filtered col-sm-6" data-category="recording, trio" data-sort="value">
                   
               <div class="bg-light rounded">
                 
@@ -290,7 +285,8 @@
                 <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="http://localhost:4000/posts/2018/04/18/traces/" rel="bookmark" title="Traces Cassette Preorder" itemprop="url">Traces Cassette Preorder</a></h4>
               
-              <time datetime="2018-04-18T00:00:00-04:00"><a href="http://localhost:4000/posts/2018/04/18/traces/">  April 18, 2018</a></time>  
+              <time datetime="2018-04-18T00:00:00-04:00"><a href="http://localhost:4000/posts/2018/04/18/traces/">  April 18, 2018</a></time>
+              
               <p>Traces with Jed Wilson / Aryeh Kobrinsky / Tony Falco available for preorder! <a href="http://localhost:4000/audio/files/wake.mp3" class="no-barba brinsk-sm2">Wake - Wilson / Kobrinsky / Falco</a></p>
               </div>
             </div>
@@ -298,29 +294,31 @@
       
       
       
-            <div class="filtr-item p-0 p-md-1 filtered col-sm-3" data-category="solo shmolo, video" data-sort="value">
+            <div class="filtr-item py-1 px-0 p-md-1 filtered col-sm-3" data-category="solo shmolo, video" data-sort="value">
                   
               <div class="bg-light rounded">
                 
                 <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="http://localhost:4000/posts/2017/04/02/heavenly-banquet-quartet/" rel="bookmark" title="Heavenly Banquet Quartet Live in Montreal" itemprop="url">Heavenly Banquet Quartet Live in Montreal</a></h4>
               
-              <time datetime="2017-04-02T00:00:00-04:00"><a href="http://localhost:4000/posts/2017/04/02/heavenly-banquet-quartet/">  April 02, 2017</a></time>  
-              <p>Heavenly Banquet Quartet </p>
+              <time datetime="2017-04-02T00:00:00-04:00"><a href="http://localhost:4000/posts/2017/04/02/heavenly-banquet-quartet/">  April 02, 2017</a></time>
+              <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/V3n0Hn81gNg" frameborder="0" allowfullscreen=""></iframe></div>
+
               </div>
             </div>
             </div>
       
       
       
-            <div class="filtr-item p-0 p-md-1 filtered col-sm-3" data-category="shows, solo shmolo" data-sort="value">
+            <div class="filtr-item py-1 px-0 p-md-1 filtered col-sm-3" data-category="shows, solo shmolo" data-sort="value">
                   
               <div class="bg-light rounded">
                 
                 <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="http://localhost:4000/posts/2017/01/16/solo-shmolo/" rel="bookmark" title="SOLO SHMOLO 2017" itemprop="url">SOLO SHMOLO 2017</a></h4>
               
-              <time datetime="2017-01-16T00:00:00-05:00"><a href="http://localhost:4000/posts/2017/01/16/solo-shmolo/">  January 16, 2017</a></time>  
+              <time datetime="2017-01-16T00:00:00-05:00"><a href="http://localhost:4000/posts/2017/01/16/solo-shmolo/">  January 16, 2017</a></time>
+              
               <p>solo east-coast mini tour </p>
               </div>
             </div>
@@ -328,7 +326,7 @@
       
       
       
-            <div class="filtr-item p-0 p-md-1 filtered col-sm-6" data-category="geekery, teaching" data-sort="value">
+            <div class="filtr-item py-1 px-0 p-md-1 filtered col-sm-6" data-category="geekery, teaching" data-sort="value">
                   
               <div class="bg-light rounded">
                 
@@ -339,7 +337,8 @@
                 <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="http://localhost:4000/posts/2016/10/19/zimmerman-steroids/" rel="bookmark" title="Zimmerman's Contemporary Bow Technique on Steroids" itemprop="url">Zimmerman's Contemporary Bow Technique on Steroids</a></h4>
               
-              <time datetime="2016-10-19T00:00:00-04:00"><a href="http://localhost:4000/posts/2016/10/19/zimmerman-steroids/">  October 19, 2016</a></time>  
+              <time datetime="2016-10-19T00:00:00-04:00"><a href="http://localhost:4000/posts/2016/10/19/zimmerman-steroids/">  October 19, 2016</a></time>
+              
               <p>Zimmerman's Contemporary Bow Technique on Steroids </p>
               </div>
             </div>
@@ -347,7 +346,7 @@
       
       
       
-            <div class="filtr-item p-0 p-md-1 filtered col-sm-6" data-category="link post, photo" data-sort="value">
+            <div class="filtr-item py-1 px-0 p-md-1 filtered col-sm-6" data-category="link post, photo" data-sort="value">
                   
               <div class="bg-light rounded">
                 
@@ -358,7 +357,8 @@
                 <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="http://localhost:4000/posts/2016/08/12/zach-link/" rel="bookmark" title="Zachariah Kobrinsky Photography" itemprop="url">Zachariah Kobrinsky Photography</a></h4>
               
-              <time datetime="2016-08-12T00:00:00-04:00"><a href="http://localhost:4000/posts/2016/08/12/zach-link/">  August 12, 2016</a></time>  
+              <time datetime="2016-08-12T00:00:00-04:00"><a href="http://localhost:4000/posts/2016/08/12/zach-link/">  August 12, 2016</a></time>
+              
               <p>My bro Zach takes amazing pictures </p>
               </div>
             </div>
@@ -366,7 +366,7 @@
       
       
       
-            <div class="filtr-item p-0 p-md-1 filtered col-sm-6" data-category="geekery" data-sort="value">
+            <div class="filtr-item py-1 px-0 p-md-1 filtered col-sm-6" data-category="geekery" data-sort="value">
                   
               <div class="bg-light rounded">
                 
@@ -377,7 +377,8 @@
                 <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="http://localhost:4000/posts/2016/08/10/about-the-site/" rel="bookmark" title="About the new site / using Jekyll" itemprop="url">About the new site / using Jekyll</a></h4>
               
-              <time datetime="2016-08-10T00:00:00-04:00"><a href="http://localhost:4000/posts/2016/08/10/about-the-site/">  August 10, 2016</a></time>  
+              <time datetime="2016-08-10T00:00:00-04:00"><a href="http://localhost:4000/posts/2016/08/10/about-the-site/">  August 10, 2016</a></time>
+              
               <p>Jekyll as a musician site </p>
               </div>
             </div>
@@ -385,44 +386,51 @@
       
       
       
-            <div class="filtr-item p-0 p-md-1 filtered col-sm-3" data-category="hush point, video" data-sort="value">
+            <div class="filtr-item py-1 px-0 p-md-1 filtered col-sm-3" data-category="hush point, video" data-sort="value">
                   
               <div class="bg-light rounded">
                 
                 <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="http://localhost:4000/posts/2016/06/25/video-post/" rel="bookmark" title="Hush Point Trailer" itemprop="url">Hush Point Trailer</a></h4>
               
-              <time datetime="2016-06-25T00:00:00-04:00"><a href="http://localhost:4000/posts/2016/06/25/video-post/">  June 25, 2016</a></time>  
-              <p>Hush Point trailer... check it out! </p>
+              <time datetime="2016-06-25T00:00:00-04:00"><a href="http://localhost:4000/posts/2016/06/25/video-post/">  June 25, 2016</a></time>
+              <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/VfE-6nLKZUw" frameborder="0" allowfullscreen=""></iframe></div>
+
               </div>
             </div>
             </div>
       
       
       
-            <div class="filtr-item p-0 p-md-1 filtered col-sm-3" data-category="solo shmolo, video" data-sort="value">
+            <div class="filtr-item py-1 px-0 p-md-1 filtered col-sm-3" data-category="solo shmolo, video" data-sort="value">
                   
               <div class="bg-light rounded">
                 
                 <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="http://localhost:4000/posts/2016/04/02/heavenly-banquet-quartet/" rel="bookmark" title="Heavenly Banquet Quartet Live in Montreal" itemprop="url">Heavenly Banquet Quartet Live in Montreal</a></h4>
               
-              <time datetime="2016-04-02T00:00:00-04:00"><a href="http://localhost:4000/posts/2016/04/02/heavenly-banquet-quartet/">  April 02, 2016</a></time>  
-              <p>Heavenly Banquet Quartet </p>
+              <time datetime="2016-04-02T00:00:00-04:00"><a href="http://localhost:4000/posts/2016/04/02/heavenly-banquet-quartet/">  April 02, 2016</a></time>
+              <div class="embed-responsive embed-responsive-16by9"><iframe width="560" height="315" src="https://www.youtube.com/embed/V3n0Hn81gNg" frameborder="0" allowfullscreen=""></iframe></div>
+
               </div>
             </div>
             </div>
       
       
       
-            <div class="filtr-item p-0 p-md-1 filtered col-sm-3" data-category="hush point" data-sort="value">
+            <div class="filtr-item py-1 px-0 p-md-1 filtered col-sm-6" data-category="hush point" data-sort="value">
                   
               <div class="bg-light rounded">
+                
+                <div class="entry-image-index">
+                <a href="http://localhost:4000/posts/2015/11/01/fathers-sons/" title="Hush Point Live at Cornelia Video"><img src="http://localhost:4000/images/hushpoint-locksmith.jpg" alt="Hush Point Live at Cornelia Video" class="img-fluid rounded-top"></a>
+                </div><!-- /.entry-image -->
                 
                 <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="http://localhost:4000/posts/2015/11/01/fathers-sons/" rel="bookmark" title="Hush Point Live at Cornelia Video" itemprop="url">Hush Point Live at Cornelia Video</a></h4>
               
-              <time datetime="2015-11-01T00:00:00-04:00"><a href="http://localhost:4000/posts/2015/11/01/fathers-sons/">  November 01, 2015</a></time>  
+              <time datetime="2015-11-01T00:00:00-04:00"><a href="http://localhost:4000/posts/2015/11/01/fathers-sons/">  November 01, 2015</a></time>
+              
               <p>Hush Point Live at Cornelia Video </p>
               </div>
             </div>

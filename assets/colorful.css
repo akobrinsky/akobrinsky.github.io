@@ -6353,15 +6353,21 @@ color: #39c6a8;
 .brinsk-sm2:before {
   content: "\f04b";
   font-family: FontAwesome;
-  padding: 0 3px;
+  padding: 0 18px 0 2px;
+  display: inline-block;
+  width: 10px;
 }
 .brinsk-sm2.sm2_playing:before {
   content: "\f04c";
   font-family: FontAwesome;
-  padding: 0 3px;
+  padding: 0 18px 0 2px;
+  display: inline-block;
+  width: 10px;
 }
 .brinsk-sm2.sm2_paused:before {
   content: "\f04b";
   font-family: FontAwesome;
-  padding: 0 3px;
+  padding: 0 18px 0 2px;
+  display: inline-block;
+  width: 10px;
 }

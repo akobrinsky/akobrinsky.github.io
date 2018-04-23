@@ -11,7 +11,7 @@ bgimg: darkbg6.png
       <div class="filtr-container container">
       {% for post in site.posts %}
       {% if post.tags %}
-            <div class="filtr-item p-0 p-md-1 filtered {% if post.mainimg %}col-sm-6{% else %}col-sm-3{% endif %}" data-category="{% if post.tags.size <= 1 %}{{ post.tags }}{% elsif post.tags.size > 1 %}{{ post.tags | sort | join: ", " }}{% endif %}" data-sort="value">
+            <div class="filtr-item py-1 px-0 p-md-1 filtered {% if post.mainimg %}col-sm-6{% else %}col-sm-3{% endif %}" data-category="{% if post.tags.size <= 1 %}{{ post.tags }}{% elsif post.tags.size > 1 %}{{ post.tags | sort | join: ", " }}{% endif %}" data-sort="value">
                   
               <div class="bg-light rounded">
                 {% if post.mainimg %}
@@ -22,8 +22,9 @@ bgimg: darkbg6.png
                 <div class="filter-inner px-2 pt-3 pb-1">
               <h4 class="filter-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h4>
               
-              <time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">  {{ post.date | date: "%B %d, %Y" }}</a></time>  
-              {% if post.description %}<p>{{ post.description }} {% if post.audio %}<a href="{{ site.url }}/audio/files/{{ post.audio.path }}" class="no-barba brinsk-sm2">{{ post.audio.title }}{% if post.audio.band %} - {{ post.audio.band }}{% endif %}</a>{% endif %}</p>{% endif %}
+              <time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">  {{ post.date | date: "%B %d, %Y" }}</a></time>
+              {% if post.tags contains 'video' %}{{ post.content }}{% elsif post.description %}
+              <p>{{ post.description }} {% if post.audio %}<a href="{{ site.url }}/audio/files/{{ post.audio.path }}" class="no-barba brinsk-sm2">{{ post.audio.title }}{% if post.audio.band %} - {{ post.audio.band }}{% endif %}</a>{% endif %}</p>{% endif %}
               </div>
             </div>
             </div>
