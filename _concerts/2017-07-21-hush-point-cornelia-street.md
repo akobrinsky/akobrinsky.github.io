@@ -2,6 +2,11 @@
 title: Hush Point at Cornelia Street Cafe
 time: 9pm
 mainimg: hushpoint-locksmith.jpg
+venue:
+ name: Cornelia Street Cafe
+ address: 29 Cornelia St
+ city: New York, NY 10014
+ phone: (212) 989-9319
 ---
 
 **Hush Point**  
@@ -40,8 +45,3 @@ A modern New York take on the “West Coast” jazz of the 50’s, Hush Point is
 [hushpoint.com](hushpoint.com)
 
 Tickets are $20 which includes a drink
-
-**Cornelia Street Cafe**  
-Cornelia Street Cafe  
-29 Cornelia St, New York, NY 10014  
-212-989-9319

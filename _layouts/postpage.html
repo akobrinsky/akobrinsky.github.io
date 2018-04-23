@@ -28,6 +28,14 @@ layout: default
       <div class="row">
       <div class="col-12 col-md-10 py-4 ml-auto mr-auto bg-white maincontent">
         {{ content }}
+        {% if page.venue.name %}
+          <address class="mb-0">
+          <h4 class="mb-0">{{ page.venue.name }}</h4>
+          <a href="https://maps.google.com/?q={{ page.venue.name }}, {{ page.venue.address }}, {{ page.venue.city }}" target="_blank">{% if page.venue.address %}{{ page.venue.address }}<br>{% endif %}
+          {% if page.venue.city %}{{ page.venue.city }}</a>{% endif %}{% if page.venue.phone %}<br>
+          {{ page.venue.phone }}{% endif %}
+          </address>
+        {% endif %}
         </div>
       </div>
     </div>

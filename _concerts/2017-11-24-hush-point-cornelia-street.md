@@ -2,6 +2,11 @@
 title: Hush Point at Cornelia Street Cafe
 time: 8:30pm
 mainimg: hushpoint-locksmith.jpg
+venue:
+ name: Cornelia Street Cafe
+ address: 29 Cornelia St
+ city: New York, NY 10014
+ phone: (212) 989-9319
 ---
 **Hush Point** has developed a cult following in New York and elsewhere. When alto saxophonist Jeremy Udden and trumpeter John McNeil created the band they didn’t realize the music would result in people creating an actual religion based on Hush Point — its members and music. The quartet's third album, Hush Point III, is being used in many HP Temples as a mediation aid and a replacement for psychotherapy and antidepressants.
 
@@ -23,7 +28,3 @@ Anthony Pinciotti - drums
 [hushpoint.com](hushpoint.com)
 
 $10 admission + $10 minimum
-
-**Cornelia Street Cafe**  
-29 Cornelia St  
-New York, NY 10014
