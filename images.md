@@ -2,6 +2,7 @@
 layout: page
 title: Images
 active: images
+description: A collection of press photos. Click link to download zip of all photos. 
 ---
 <div class="py-4">
 <div class="row text-center text-lg-left gala">

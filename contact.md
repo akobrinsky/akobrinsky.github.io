@@ -4,6 +4,7 @@ title: Contact
 bgimg: darkbg4.png
 share: false
 active: contact
+description: Feel free to get in touch by using the form below
 ---
 <div class="email-info text-center">
 <h1 class="display-1"><i class="fa fa-envelope"></i></h1>
