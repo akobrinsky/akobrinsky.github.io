@@ -21,9 +21,9 @@ description: A one-page view allowing you to filter news/blog posts
                 </div><!-- /.entry-image -->
                 {% endif %}
                 <div class="filter-inner px-2 pt-3 pb-1">
+              <time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">  {{ post.date | date: "%B %d, %Y" }}</a></time>
               <h4 class="filter-title"><a href="{{ site.url }}{{ post.url }}" rel="bookmark" title="{{ post.title }}" itemprop="url">{{ post.title }}</a></h4>
               
-              <time datetime="{{ post.date | date_to_xmlschema }}"><a href="{{ site.url }}{{ post.url }}">  {{ post.date | date: "%B %d, %Y" }}</a></time>
               {% if post.tags contains 'video' %}{{ post.content }}{% elsif post.description %}
               <p>{{ post.description }} {% if post.audio %}<a href="{{ site.url }}/audio/files/{{ post.audio.path }}" class="no-barba brinsk-sm2">{{ post.audio.title }}{% if post.audio.band %} - {{ post.audio.band }}{% endif %}</a>{% endif %}</p>{% endif %}
               </div>
