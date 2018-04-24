@@ -13,13 +13,10 @@ active: concerts
   {% assign curDate = site.time | date: '%s' %}
   {% assign sorted = site.concerts | sort: 'date' | reverse %}
     {% for item in sorted %}
-    {% assign postStartDate = item.date | date: '%s' %}
-    {% if postStartDate <= curDate %}
     <tr>
       <td class="border-0" nowrap>{{item.date | date: "%a %b %d %Y "}}</td>
       <td class="border-0" nowrap><a href="{{ item.url }}">{{ item.title }}</a></td>
     </tr>
-    {% endif %}
     {% endfor %}
   </tbody>
 </table>
