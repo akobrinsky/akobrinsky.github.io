@@ -16,7 +16,7 @@
 title: Aryeh Kobrinsky
 email: aryeh.kobrinsky@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  bassist / improviser / educator
+  Bassist, improviser, educator living in New York City
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://aryehkobrinsky.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: shmaryeh
@@ -57,7 +57,7 @@ defaults:
 owner:
   name:           Aryeh Kobrinsky
   avatar:         avatar.jpg
-  bio:            "Bassist, composer, educator living in New York"
+  bio:            "bassist / improviser / educator"
   email:          aryeh.kobrinsky@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter: aryehkobrinsky     
