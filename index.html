@@ -74,14 +74,14 @@ description: Aryeh Kobrinsky - bassist, improviser and educator living in New Yo
 
                   {% assign sorted = site.concerts | sort: 'date' | reverse %}
                   {% for item in sorted limit:5 %}
-                        <div class="concert-listing"><div class="cl-date">{{ item.date | date: "%a %b %d %Y "}}</div><div class="cl-title"><a href="{{ item.url }}">{{ item.title }}</a></div></div>
+                        <div class="concert-listing mb-1"><div class="cl-date">{{ item.date | date: "%a %b %d %Y "}}</div><div class="cl-title"><a href="{{ item.url }}">{{ item.title }}</a></div></div>
                         {% endfor %}
                 </div>
           </div>
           <div class="px-3 pb-4 col-lg-6 col-md-6">
                 <div class="front-block concert-block">
                   {% for item in sorted limit:5 offset:5 %}
-                        <div class="concert-listing"><div class="cl-date">{{ item.date | date: "%a %b %d %Y "}}</div><div class="cl-title"><a href="{{ item.url }}">{{ item.title }}</a></div></div>
+                        <div class="concert-listing mb-1"><div class="cl-date">{{ item.date | date: "%a %b %d %Y "}}</div><div class="cl-title"><a href="{{ item.url }}">{{ item.title }}</a></div></div>
                         {% endfor %}
                 </div>
           </div>

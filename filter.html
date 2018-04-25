@@ -9,7 +9,7 @@ description: A one-page view allowing you to filter news/blog posts
 {% for tag in site.tags %}{% assign posts = tag | last %}
   <button data-filter="{{ tag | first }}" type="button" class="btn btn-primary mb-2">{{ tag | first }} <span class="badge badge-dark">{{ posts | size }}</span></button>
 {% endfor %}
-      <div class="filtr-container container">
+      <div class="post-filter container">
       {% for post in site.posts %}
       {% if post.tags %}
             <div class="filtr-item py-1 px-0 p-md-1 filtered {% if post.mainimg %}col-sm-6{% else %}col-sm-3{% endif %}" data-category="{% if post.tags.size <= 1 %}{{ post.tags }}{% elsif post.tags.size > 1 %}{{ post.tags | sort | join: ", " }}{% endif %}" data-sort="value">
