@@ -3,20 +3,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="{% if page.collection == 'concerts' %}{{ page.date | date: "%a %b %d %Y "}} - {{ page.time }}. {{ page.excerpt | strip_html }}{% elsif page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.title }} - {{ page.title }}{% endif %}">
+    <meta name="description" content="{% if page.collection == 'concerts' %}{{ page.date | date: "%a %b %d %Y "}}{% if page.venue.name %} @ {{ page.venue.name }}{% endif %} - {{ page.time }}. {{ page.excerpt | strip_html }}{% elsif page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.title }} - {{ page.title }}{% endif %}">
     <meta name="author" content="{{ site.title }}">
-    <meta name="twitter:title" content="{% if page.title %} {{ site.title }} - {{ page.title }} {% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="twitter:title" content="{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.collection == 'concerts' %}{{ page.date | date: "%a %b %d %Y "}}{% if page.venue.name %} @ {{ page.venue.name }}{% endif %} - {{ page.time }}. {{ page.excerpt | strip_html | truncate: 144 }}{% elsif page.description %}{{ page.description | truncate: 200 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.title }} - {{ page.title }}{% endif %}">
     <meta name="twitter:creator" content="@{{ site.owner.twitter }}">
+    <meta name="twitter:image" content="{% if page.mainimg %}{{ site.url }}/images/{{ page.mainimg }}{% else %}{{ site.url }}/images/fb-aryeh.jpg{% endif %}">
     <meta name="google-site-verification" content="zStwYJtxl8IWOvgIroXlb8HRCVgXaxPJ7Nxvwn9j2dk" /><!-- Open Graph -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:image" content="{% if page.mainimg %}{{ site.url }}/images/{{ page.mainimg }}{% else %}{{ site.url }}/images/fb-aryeh.jpg{% endif %}">
-    <meta property="og:description" content="{% if page.collection == 'concerts' %}{{ page.date | date: "%a %b %d %Y "}} - {{ page.time }}. {{ page.excerpt | strip_html }}{% elsif page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.title }} - {{ page.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.collection == 'concerts' %}{{ page.date | date: "%a %b %d %Y "}}{% if page.venue.name %} @ {{ page.venue.name }}{% endif %} - {{ page.time }}. {{ page.excerpt | strip_html }}{% elsif page.description %}{{ page.description }}{% elsif page.excerpt %}{{ page.excerpt | strip_html }}{% else %}{{ site.title }} - {{ page.title }}{% endif %}">
+    <meta name="author" content="{{ site.title }}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91348626-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
