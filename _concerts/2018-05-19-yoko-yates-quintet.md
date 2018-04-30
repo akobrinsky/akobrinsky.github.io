@@ -15,5 +15,3 @@ Yoko Yates - piano/compositions
 Aryeh Kobrinsky - bass  
 Cody Brown - drums
 
-[Buy tickets here](https://ottawajazzfestival.com/artists/hush-point/)
-
