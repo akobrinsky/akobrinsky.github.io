@@ -1,5 +1,5 @@
 ---
-title: Kobrinsky / Udden solo sets at ibeam
+title: Kobrinsky / Udden / Ravitz solo sets at ibeam
 time: 8:00pm
 mainimg:
 venue:
@@ -11,6 +11,7 @@ venue:
 **Solo Sets at ibeam**
 
 Jeremy Udden - saxophone  
+Ziv Ravitz - drums  
 Aryeh Kobrinsky - bass  
 
 $10
