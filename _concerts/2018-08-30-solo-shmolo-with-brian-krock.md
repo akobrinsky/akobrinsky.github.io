@@ -1,7 +1,7 @@
 ---
 title: Solo Shmolo with Brian Krock at A.E. Randolph Presents
 time: 8:00pm
-mainimg:
+mainimg: aryeh-plaid-man.jpg
 venue:
  name: Balboa
  address: 1655 Bedford Ave
