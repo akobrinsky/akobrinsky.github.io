@@ -10,7 +10,7 @@ description: Feel free to get in touch by using the form below
 <h1 class="display-1"><i class="fa fa-envelope"></i></h1>
 </div>
 <h4 class="text-center mb-5 mt-2 mailinfo">Feel free to drop me a line at: <a href="mailto:info@aryehkobrinsky.com" title="email me!">info@aryehkobrinsky.com</a> or by using the form below.</h4>
-
+<div class="emailpage">
 <form method="POST" action="http://formspree.io/aryeh.kobrinsky@gmail.com">
   <div class="form-group">
     <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" placeholder="Enter email" name="email">
@@ -26,3 +26,4 @@ description: Feel free to get in touch by using the form below
   </div>
   <button type="submit" class="btn btn-primary" id="sendMessage">Submit</button>
   </form>
+</div>
