@@ -6377,12 +6377,12 @@ color: #39c6a8;
 .duoh .sm2_link.sm2_playing:after {
     content: " - Playing";
 }
-.duoh .sm2_link.paused:after {
+.duoh .sm2_link.sm2_paused:after {
     content: " - Paused";
 }
-.duoh .sm2_link.sm2_playing {
+.duoh .sm2_link.sm2_paused {
 color: #ec4141;
 }
-.duoh .sm2_link.paused{
+.duoh .sm2_link.sm2_playing {
 color: #ec4141;
 }
