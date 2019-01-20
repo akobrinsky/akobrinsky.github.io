@@ -31,4 +31,3 @@ active: duos
       </div>
 </div>
 </div>
-</div>
