@@ -6373,3 +6373,16 @@ color: #39c6a8;
 .emailpage .form-control {
   color: #000000;
 }
+
+.duoh .sm2_link.sm2_playing:after {
+    content: " - Playing";
+}
+.duoh .sm2_link.paused:after {
+    content: " - Paused";
+}
+.duoh .sm2_link.sm2_playing {
+color: #ec4141;
+}
+.duoh .sm2_link.paused{
+color: #ec4141;
+}
