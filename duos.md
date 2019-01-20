@@ -6,7 +6,7 @@ permalink: /duos/
 active: duos
 ---
 <div class="row">
-<div class="bg-dark col-12 col-lg-10 ml-auto mr-auto px-0 py-4">
+<div class="bg-dark col-12 col-lg-10 ml-auto mr-auto px-4 py-4">
       <p class="duoh">Dec 18 2018 - Andre Matos<br>
       <a href="{{ site.url }}/audio/files/Dec-18-Andre/07-miniature-five.mp3" class="no-barba sm2_link">One</a><br>
       <a href="{{ site.url }}/audio/files/Dec-18-Andre/08-jah.mp3" class="no-barba sm2_link">Two</a><br>
