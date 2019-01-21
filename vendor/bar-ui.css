@@ -408,7 +408,7 @@
  white-space: nowrap;
  overflow: hidden;
  text-overflow: ellipsis;
- text-align: left;
+ text-align: center;
 }
 
 .sm2-row {
@@ -998,4 +998,15 @@
  /* re-hide playlist */
  display: block;
  overflow: hidden;
+}
+@media (max-width: 767.98px) {
+.sm2-bar-ui {
+ /* base font size */
+ font-size: 12px;
+ text-shadow: none;
+}
+.sm2-bar-ui .sm2-playlist ul li,
+.sm2-bar-ui .sm2-playlist ul li a {
+ text-align: left;
+}
 }
