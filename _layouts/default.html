@@ -52,26 +52,6 @@
    </div>
   </div>
 
-<!--   <div class="sm2-inline-element sm2-button-element">
-   <div class="sm2-button-bd">
-    <a href="#repeat" title="Repeat playlist" class="sm2-inline-button sm2-icon-repeat">&infin; repeat</a>
-   </div>
-  </div> -->
-
-  <!-- not implemented -->
-  <!--
-  <div class="sm2-inline-element sm2-button-element disabled">
-   <div class="sm2-button-bd">
-    <a href="#shuffle" title="Shuffle" class="sm2-inline-button sm2-icon-shuffle">shuffle</a>
-   </div>
-  </div>
-  -->
-<!-- 
-  <div class="sm2-inline-element sm2-button-element sm2-menu">
-   <div class="sm2-button-bd">
-    <a href="#menu" class="sm2-inline-button sm2-icon-menu">menu</a>
-   </div>
-  </div> -->
 
  </div>
 
@@ -81,26 +61,20 @@
    <div class="sm2-box-shadow"></div>
   </div>
 
-  <!-- playlist content is mirrored here -->
-
   <div class="sm2-playlist-wrapper">
 
     <ul class="sm2-playlist-bd">
 
-     <!-- item with "download" link -->
-<!--      <li>
-      <div class="sm2-row">
-       <div class="sm2-col sm2-wide">
-        <a href="{{ site.url }}/"><b>SonReal</b> - LA<span class="label">Explicit</span></a>
-       </div>
-       <div class="sm2-col">
-        <a href="http://freshly-ground.com/data/audio/sm2/SonReal%20-%20LA%20%28Prod%20Chin%20Injetti%29.mp3" target="_blank" title="Download &quot;LA&quot;" class="sm2-icon sm2-music sm2-exclude">Download this track</a>
-       </div>
-      </div>
-     </li> -->
-{% for audio in site.audios %}
-<li><a href="{{ site.url }}/{{ audio.audiopath }}"><b>{{ audio.band }}</b> - {{ audio.title }}</a></li>
-{% endfor %}
+<li><a href="{{ site.url }}/audio/files/dotson-merger.mp3"><b>Duo with Adam Dotson</b> - Merger</a></li>
+<li><a href="{{ site.url }}/audio/files/andre-jah.mp3"><b>Duo with Andre Matos</b> - Jah</a></li>
+<li><a href="{{ site.url }}/audio/files/clinch-not.mp3"><b>New Old Timers</b> - Clinch Mountain Backstep</a></li>
+<li><a href="{{ site.url }}/audio/files/dotson-folksong-two.mp3"><b>Duo with Adam Dotson</b> - Folksong II</a></li>
+<li><a href="{{ site.url }}/audio/files/scuffle.mp3"><b>Hush Point</b> - Scuffle</a></li>
+<li><a href="{{ site.url }}/audio/files/dusty-crowns.mp3"><b>Duo with Dustin Carlson</b> - Crowns</a></li>
+<li><a href="{{ site.url }}/audio/files/jake.mp3"><b>Duo with Jake Henry</b> - Improvisation</a></li>
+<li><a href="{{ site.url }}/audio/files/dotson-folksong-one.mp3"><b>Duo with Adam Dotson</b> - Folksong I</a></li>
+
+
      <!-- standard one-line items -->
     </ul>
 
