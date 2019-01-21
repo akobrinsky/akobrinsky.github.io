@@ -320,8 +320,8 @@
  min-width: 200px;
  max-width: 20em;
  /* a little more spacing */
- padding-left: 0.75em;
- padding-right: 0.75em;
+ padding-left: 0.30em;
+ padding-right: 0.30em;
 }
 
 .sm2-bar-ui .sm2-inline-element {
@@ -408,7 +408,7 @@
  white-space: nowrap;
  overflow: hidden;
  text-overflow: ellipsis;
- text-align: center;
+ text-align: left;
 }
 
 .sm2-row {
