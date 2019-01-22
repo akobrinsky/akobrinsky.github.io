@@ -6107,7 +6107,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #212529; }
 
 .bg-dark {
-  color: #fff; }
+  color: #eaeaea; }
 .bg-lightish {
   background: #1e1e1e;
 }
@@ -6366,9 +6366,6 @@ color: #39c6a8;
   padding: 0 18px 0 2px;
   display: inline-block;
   width: 10px;
-}
-.emailpage .form-control {
-  color: #000000;
 }
 
 .duoh .sm2_link.sm2_playing:after {

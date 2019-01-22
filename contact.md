@@ -1,7 +1,6 @@
 ---
 layout: darkbg
 title: Contact
-bgimg: darkbg4.png
 share: false
 active: contact
 description: Feel free to get in touch by using the form below
@@ -26,4 +25,4 @@ description: Feel free to get in touch by using the form below
   </div>
   <button type="submit" class="btn btn-primary" id="sendMessage">Submit</button>
   </form>
-</div>
+</div>  
