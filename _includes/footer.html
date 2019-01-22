@@ -2,6 +2,7 @@
 <div class="text-white bg-dark" id="contact">
     <div class="container">
       <div class="row">
+        {% if page.active != "contact" %}
         <div class="p-4 col-md-6">
           <h3><b>akobrinsky</b></h3>
           <p><span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}</span></p>
@@ -44,7 +45,6 @@
 
         </div>
 
-        {% if page.active != "contact" %}
         <div class="p-4 col-md-6">
           <h3>Get in touch</h3>
           <form method="POST" action="http://formspree.io/aryeh.kobrinsky@gmail.com">
@@ -61,6 +61,48 @@
   </div>
   <button type="submit" class="btn btn-outline-light btn-sm" id="sendMessage">Submit</button>
   </form>
+        </div>
+      {% else %}
+      <div class="p-4 col-md-12">
+          <h3><b>akobrinsky</b></h3>
+          <p><span>&copy; {{ site.time | date: '%Y' }} {{ site.owner.name }}</span></p>
+          <p>Proudly powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a></p>
+          <p class="">
+            <a href="#">aryeh.kobrinsky@gmail.com</a>
+          </p>
+      <ul class="footer-social inline">
+        {% if site.owner.email %}<li class="list-inline-item">
+          <a href="mailto:{{ site.owner.email }}"><i class="fa fa-fw fa-envelope"></i></a>
+        </li>{% endif %}
+        {% if site.owner.twitter %}<li class="list-inline-item">
+          <a href="https://twitter.com/{{ site.owner.twitter }}"><i class="fa fa-fw fa-twitter"></i></a>
+        </li>{% endif %}
+        {% if site.owner.facebook %}<li class="list-inline-item">
+          <a href="https://facebook.com/{{ site.owner.facebook }}"><i class="fa fa-fw fa-facebook"></i></a>
+        </li>{% endif %}
+        {% if site.owner.google_plus %}<li class="list-inline-item">
+          <a href="https://google.com/{{ site.owner.google_plus }}"><i class="fa fa-fw fa-google-plus"></i></a>
+        </li>{% endif %}
+        {% if site.owner.linkedin %}<li class="list-inline-item">
+          <a href="https://linkedin.com/in/{{ site.owner.linkedin }}"><i class="fa fa-fw fa-linkedin"></i></a>
+        </li>{% endif %}
+        {% if site.owner.github %}<li class="list-inline-item">
+          <a href="https://github.com/{{ site.owner.github }}"><i class="fa fa-fw fa-github"></i></a>
+        </li>{% endif %}
+        {% if site.owner.stackexchange %}<li class="list-inline-item">
+          <a href="{{ site.owner.stackexchange }}"><i class="fa fa-fw fa-stack-exchange"></i></a>
+        </li>{% endif %}
+        {% if site.owner.instagram %}<li class="list-inline-item">
+          <a href="https://instagram.com/{{ site.owner.instagram }}"><i class="fa fa-fw fa-instagram"></i></a>
+        </li>{% endif %}
+        {% if site.owner.flickr %}<li class="list-inline-item">
+          <a href="https://www.flickr.com/photos/{{ site.owner.flickr }}"><i class="fa fa-fw fa-flickr"></i></a>
+        </li>{% endif %}
+        {% if site.owner.tumblr %}<li class="list-inline-item">
+          <a href="http://{{ site.owner.tumblr }}.tumblr.com"><i class="fa fa-fw fa-tumblr"></i></a>
+        </li>{% endif %}
+      </ul><!-- /.dl-submenu -->
+
         </div>
       {% endif %}
       </div>
