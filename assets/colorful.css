@@ -4168,7 +4168,7 @@ button.bg-info:focus {
   background-color: #ffc107 !important; }
 
 a.bg-warning:hover, a.bg-warning:focus,
-button.bg-warning:hover,
+button.bg-warning:hover,  
 button.bg-warning:focus {
   background-color: #d39e00 !important; }
 
@@ -4191,7 +4191,7 @@ button.bg-light:focus {
 .bg-dark {
   background-color: #151515 !important; }
 .bg-gray {
-    background-color: #3b3b3b !important; }
+    background-color: #1b1b1b  !important; }
 }
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
