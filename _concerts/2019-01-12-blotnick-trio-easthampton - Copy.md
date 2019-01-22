@@ -1,5 +1,5 @@
 ---
-title: Ryan Blotnick Trio at Murr-ma Distilling Company
+title: Blotnick/Sperrazza/Kobrinsky at Murr-ma Distilling Company
 time: 6:00pm
 venue:
  name: Murr-ma Distilling Company
