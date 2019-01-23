@@ -1,6 +1,6 @@
 ---
 layout: conc
-title: Duo Project
+title: Duos Project
 description: "Weekly duo recording session 2019"
 permalink: /duos/
 active: duos
