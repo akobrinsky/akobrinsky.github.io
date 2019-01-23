@@ -6,6 +6,7 @@ permalink: /duos/
 active: duos
 ---
 <div class="row">
+<div class="col-12 text-center"><h3>each wednesday of 2019, I am documenting a duo session...</h3></div>
 <div class="bg-dark col-12 col-lg-10 ml-auto mr-auto px-4 py-4">
       <p class="duoh">Jan 16 2019 - Adam Dotson<br>
       <a href="{{ site.url }}/audio/files/Jan-16-Adam/one.mp3" class="no-barba sm2_link">One</a><br>
