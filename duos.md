@@ -8,6 +8,11 @@ active: duos
 <div class="row">
 <div class="col-12 text-center"><h3>each wednesday of 2019, I am documenting a duo session...</h3></div>
 <div class="bg-dark col-12 col-lg-10 ml-auto mr-auto px-4 py-4">
+      <p class="duoh">Jan 30 2019 - Aaron Quinn<br>
+      <a href="{{ site.url }}/audio/files/aaron02.mp3" class="no-barba sm2_link">One</a><br>
+      <a href="{{ site.url }}/audio/files/aaron01.mp3" class="no-barba sm2_link">Two</a><br>
+      <a href="{{ site.url }}/audio/files/aaron03.mp3" class="no-barba sm2_link">Three</a><br>
+      </p>
       <p class="duoh">Jan 23 2019 - Josh Sinton<br>
       <a href="{{ site.url }}/audio/files/joshone.mp3" class="no-barba sm2_link">One</a><br>
       <a href="{{ site.url }}/audio/files/joshtwo.mp3" class="no-barba sm2_link">Two</a><br>
