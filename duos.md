@@ -8,6 +8,20 @@ active: duos
 <div class="row">
 <div class="col-12 text-center"><h3>each wednesday of 2019, I am documenting a duo session...</h3></div>
 <div class="bg-dark col-12 col-lg-10 ml-auto mr-auto px-4 py-4">
+      <p class="duoh">Feb 20 2019 - Brian Krock<br>
+      <a href="{{ site.url }}/audio/files/krock-01.mp3" class="no-barba sm2_link">One</a><br>
+      <a href="{{ site.url }}/audio/files/krock-02.mp3" class="no-barba sm2_link">Two</a><br>
+      </p>
+      <p class="duoh">Feb 20 2019 - Laylage Courie<br>
+      <a href="{{ site.url }}/audio/files/laylage-03.mp3" class="no-barba sm2_link">One</a><br>
+      <a href="{{ site.url }}/audio/files/laylage-05.mp3" class="no-barba sm2_link">Two</a><br>
+      <a href="{{ site.url }}/audio/files/laylage-08.mp3" class="no-barba sm2_link">Three</a><br>
+      </p>
+      <p class="duoh">Feb 20 2019 - Jeremy Udden<br>
+      <a href="{{ site.url }}/audio/files/jeremy-06-nowhere.mp3" class="no-barba sm2_link">Out of Nowhere</a><br>
+      <a href="{{ site.url }}/audio/files/jeremy-05.mp3" class="no-barba sm2_link">Two</a><br>
+      <a href="{{ site.url }}/audio/files/jeremy-04.mp3" class="no-barba sm2_link">Three</a><br>
+      </p>
       <p class="duoh">Feb 6 2019 - Joe Moffett<br>
       <a href="{{ site.url }}/audio/files/joe02.mp3" class="no-barba sm2_link">One</a><br>
       <a href="{{ site.url }}/audio/files/joe03.mp3" class="no-barba sm2_link">Two</a><br>
